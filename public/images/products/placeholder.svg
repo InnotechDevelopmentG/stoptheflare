@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Product image placeholder">
+  <rect width="240" height="240" fill="#F3EDE3"/>
+  <rect x="78" y="56" width="84" height="128" rx="10" fill="#FFFFFF" stroke="#E5DDD3" stroke-width="2"/>
+  <rect x="96" y="40" width="48" height="24" rx="6" fill="#2C5F2E"/>
+  <rect x="92" y="86" width="56" height="10" rx="5" fill="#E5DDD3"/>
+  <rect x="92" y="106" width="56" height="56" rx="6" fill="#FAF7F2" stroke="#E5DDD3"/>
+  <path d="M120 118c-10 8-18 14-18 24a18 18 0 0 0 36 0c0-10-8-16-18-24z" fill="#4A8A4D"/>
+</svg>

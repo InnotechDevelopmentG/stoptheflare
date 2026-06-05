@@ -1,0 +1,333 @@
+[
+  {
+    "slug": "hashimotos",
+    "name": "Hashimoto's & Thyroid Disease",
+    "shortName": "Hashimoto's",
+    "navLabel": "Hashimoto's",
+    "badgeColor": "primary",
+    "tagline": "The most common autoimmune condition nobody's treating right.",
+    "homeHeadline": "Tired no matter how much you sleep? Gaining weight without explanation? Your thyroid may be under attack.",
+    "homeBullets": ["Unexplained fatigue", "Weight changes despite diet", "Brain fog and hair loss"],
+    "stats": { "affected": "~14 million Americans affected", "topSearched": "Selenium, magnesium, vitamin D", "updated": "June 2026" },
+    "overview": "Hashimoto's thyroiditis is an autoimmune condition where the immune system attacks the thyroid gland, slowly reducing its ability to produce the hormones that regulate metabolism, energy, and mood. It is the leading cause of hypothyroidism in the developed world, yet many people spend years feeling unwell before getting an accurate diagnosis. Standard care typically begins and ends with a single hormone replacement medication, but research increasingly shows that targeted nutrients, gut health, and trigger reduction play a meaningful role in how people actually feel day to day. Because the thyroid depends on specific minerals to convert and use its hormones, deficiencies in selenium, magnesium, zinc, and vitamin D can quietly make symptoms worse. The goal of a thoughtful supplement protocol is not to replace medication but to support the conditions your thyroid needs to function and to calm the autoimmune activity driving the attack.",
+    "quickFacts": {
+      "affects": "Roughly 5 in 100 adults, far more women than men",
+      "symptoms": "Fatigue, weight gain, cold intolerance, hair loss, brain fog",
+      "conventional": "Levothyroxine (T4) hormone replacement, monitored by TSH",
+      "whySupplements": "Key minerals support hormone conversion and lower antibodies",
+      "keyNutrients": "Selenium, magnesium, vitamin D3/K2, zinc, B12, iron"
+    },
+    "protocol": {
+      "tier1": [
+        { "name": "Selenium (selenomethionine)", "why": "Selenium supports the enzymes that convert T4 to active T3 and has been shown to lower thyroid antibodies. The selenomethionine form is the best absorbed.", "dose": "200 mcg/day", "lookFor": "Selenomethionine form, no megadoses above 400 mcg", "productSlug": "thorne-selenium" },
+        { "name": "Magnesium glycinate", "why": "Most people with thyroid disease run low on magnesium, which is needed for hundreds of metabolic reactions. Glycinate is gentle on the gut and calming.", "dose": "200-400 mg/day", "lookFor": "Glycinate or bisglycinate, not oxide", "productSlug": "pure-encapsulations-magnesium" },
+        { "name": "Vitamin D3 / K2", "why": "Low vitamin D is strongly associated with autoimmune thyroid activity. K2 helps direct calcium and supports the immune-modulating benefits.", "dose": "2000-5000 IU D3 + 90-120 mcg K2", "lookFor": "D3 (cholecalciferol) paired with K2 MK-7", "productSlug": "thorne-vitamin-d-k2" }
+      ],
+      "tier2": [
+        { "name": "Zinc", "why": "Zinc is required for thyroid hormone production and immune balance. Deficiency is common and worsens hair loss.", "dose": "15-30 mg/day", "lookFor": "Zinc picolinate or bisglycinate, balanced with copper", "productSlug": "thorne-zinc" },
+        { "name": "B12 (methylcobalamin)", "why": "Hashimoto's frequently coexists with B12 deficiency, compounding fatigue and brain fog.", "dose": "1000 mcg/day", "lookFor": "Methylcobalamin, not cyanocobalamin", "productSlug": "pure-encapsulations-b12" }
+      ],
+      "tier3": [
+        { "name": "Inositol (myo + d-chiro)", "why": "Some patients report improved TSH and well-being when inositol is combined with selenium. Evidence is emerging but promising.", "dose": "600 mg myo-inositol", "lookFor": "Myo-inositol, optionally with d-chiro blend", "productSlug": "life-extension-inositol" },
+        { "name": "Iron (if deficient)", "why": "Low ferritin impairs thyroid hormone use and is common in menstruating women. Test before supplementing.", "dose": "Per lab results", "lookFor": "Gentle forms like bisglycinate, only if ferritin is low", "productSlug": "thorne-iron" }
+      ]
+    },
+    "avoid": [
+      "High-dose iodine supplements — they can accelerate the autoimmune attack in Hashimoto's, the opposite of what most generic thyroid blends assume.",
+      "Generic 'thyroid support' formulas that hide undisclosed glandular extracts or stimulants.",
+      "Excess selenium above 400 mcg/day, which can become toxic with no added benefit.",
+      "Ashwagandha taken blindly — it can be helpful but raises thyroid hormone in some people, which is risky if you're already medicated."
+    ],
+    "community": [
+      { "quote": "Switching to selenomethionine and actually getting my vitamin D up was the first time my antibodies moved in years.", "source": "Via Reddit r/Hashimotos" },
+      { "quote": "Nobody told me magnesium glycinate would help my sleep and the muscle aches at the same time.", "source": "Via our community survey" },
+      { "quote": "I wasted a year on an iodine 'thyroid booster' that made everything worse before I learned it's the wrong move for Hashimoto's.", "source": "Via Facebook thyroid group" }
+    ],
+    "faqs": [
+      { "q": "What's the difference between TSH, T3, and T4?", "a": "TSH is the signal from your brain telling the thyroid to work; T4 is the storage hormone your thyroid makes; T3 is the active form your body actually uses. Many people feel best when all three are evaluated, not TSH alone." },
+      { "q": "How much selenium should I take for Hashimoto's?", "a": "Most studies showing reduced antibodies used 200 mcg/day of selenomethionine. Going higher does not help and can be harmful, so 200 mcg is the standard ceiling for daily use." },
+      { "q": "Is gluten really connected to Hashimoto's?", "a": "There is meaningful overlap between Hashimoto's and gluten sensitivity, and many patients report fewer symptoms when going gluten-free. It does not help everyone, but a 60-90 day trial is low risk." },
+      { "q": "Can supplements replace my thyroid medication?", "a": "No. Supplements support the nutrients your thyroid needs but do not replace hormone replacement. Never stop prescribed medication without your doctor." },
+      { "q": "Should I avoid iodine?", "a": "In Hashimoto's specifically, high-dose iodine can worsen the autoimmune attack. Normal dietary amounts are fine, but skip high-dose iodine supplements unless directed by your doctor." },
+      { "q": "Why am I still tired even with normal labs?", "a": "Normal TSH does not always mean optimal. Low ferritin, B12, vitamin D, or magnesium commonly cause lingering fatigue and are worth checking." },
+      { "q": "Does vitamin D actually lower antibodies?", "a": "Studies link low vitamin D to higher thyroid antibodies, and correcting a deficiency is associated with improvement. Aim to get your blood level into a healthy range rather than guessing at a dose." },
+      { "q": "What labs should I track?", "a": "Beyond TSH, ask for free T3, free T4, TPO and thyroglobulin antibodies, ferritin, vitamin D, and B12 to see the full picture." }
+    ],
+    "clusters": [
+      { "slug": "best-selenium-supplements", "title": "Best Selenium Supplements for Hashimoto's" },
+      { "slug": "best-magnesium-for-thyroid", "title": "Best Magnesium for Thyroid Health" },
+      { "slug": "t3-t4-guide-for-patients", "title": "T3 vs T4: A Plain-Language Guide for Patients" },
+      { "slug": "gluten-and-hashimotos", "title": "Gluten and Hashimoto's: What the Research Says" },
+      { "slug": "foods-to-avoid", "title": "Foods to Avoid With Hashimoto's" },
+      { "slug": "adrenal-fatigue-connection", "title": "The Adrenal Fatigue Connection" },
+      { "slug": "labs-to-track", "title": "The Thyroid Labs You Should Actually Track" },
+      { "slug": "inositol-thyroid-review", "title": "Inositol for Thyroid: An Honest Review" }
+    ]
+  },
+  {
+    "slug": "gut-health",
+    "name": "Gut Health, IBD & Crohn's",
+    "shortName": "Gut Health",
+    "navLabel": "Gut Health",
+    "badgeColor": "secondary",
+    "tagline": "The gut is where most autoimmune conditions start. Here's how to actually fix it.",
+    "homeHeadline": "When your gut is inflamed, everything else suffers too. Here's what actually helps.",
+    "homeBullets": ["Chronic bloating and cramping", "Food sensitivities that keep expanding", "The gut-immune connection explained"],
+    "stats": { "affected": "~3 million Americans with IBD", "topSearched": "Probiotics, L-glutamine, enzymes", "updated": "June 2026" },
+    "overview": "The gut is home to roughly 70% of your immune system, which is why digestive health sits at the center of so many autoimmune conditions. When the intestinal lining becomes inflamed or its barrier becomes more permeable, undigested particles and microbes can trigger an immune response that ripples through the whole body. Conditions like IBD, Crohn's, and IBS each involve different mechanisms, but they share common themes: disrupted microbial balance, a compromised gut lining, and chronic inflammation. Conventional treatment often focuses on suppressing symptoms or inflammation, which can be necessary, but it rarely addresses the terrain of the gut itself. A practical supplement approach aims to rebuild the barrier, restore a healthier microbial balance, and reduce the inflammatory load — using targeted strains, amino acids that feed the gut lining, and nutrients that are commonly depleted when absorption is impaired.",
+    "quickFacts": {
+      "affects": "Millions with IBD, IBS, and broader gut dysfunction",
+      "symptoms": "Bloating, cramping, irregular stools, food reactions, fatigue",
+      "conventional": "Anti-inflammatories, immunosuppressants, dietary changes",
+      "whySupplements": "Rebuild the gut barrier and restore microbial balance",
+      "keyNutrients": "Targeted probiotics, L-glutamine, enzymes, zinc, vitamin D"
+    },
+    "protocol": {
+      "tier1": [
+        { "name": "Targeted probiotics", "why": "The right strains can reduce inflammation and support remission in IBD, but strain selection matters more than CFU count. Match the strain to your condition.", "dose": "Per product, condition-specific strains", "lookFor": "Clinically studied strains, not generic blends", "productSlug": "seed-ds01" },
+        { "name": "L-Glutamine", "why": "Glutamine is the primary fuel for the cells lining your gut and supports barrier repair. It is one of the most studied amino acids for intestinal health.", "dose": "5-10 g/day", "lookFor": "Pure L-glutamine powder, no fillers", "productSlug": "thorne-l-glutamine" },
+        { "name": "Digestive enzymes", "why": "When the gut is inflamed, enzyme output often drops, leaving food poorly broken down and feeding symptoms. Enzymes reduce that burden.", "dose": "With meals", "lookFor": "Broad-spectrum, plant or microbial enzymes", "productSlug": "bioptimizers-masszymes" }
+      ],
+      "tier2": [
+        { "name": "Zinc carnosine", "why": "This specific form supports the stomach and gut lining and has solid evidence for soothing the mucosa.", "dose": "75 mg/day", "lookFor": "Zinc-carnosine complex (PepZin GI)", "productSlug": "thorne-zinc" },
+        { "name": "Collagen peptides", "why": "Collagen provides the amino acids the gut lining uses to rebuild and is easy to add to a routine.", "dose": "10-20 g/day", "lookFor": "Hydrolyzed peptides, unflavored", "productSlug": "life-extension-collagen" }
+      ],
+      "tier3": [
+        { "name": "Vitamin D", "why": "Low vitamin D is common in IBD and tied to more active disease. Correcting it supports immune regulation.", "dose": "2000-5000 IU/day", "lookFor": "D3 with K2", "productSlug": "thorne-vitamin-d-k2" },
+        { "name": "Fish oil (EPA/DHA)", "why": "Omega-3s help lower the inflammatory tone of the gut and the body overall.", "dose": "1-2 g combined EPA/DHA", "lookFor": "Third-party tested for purity", "productSlug": "thorne-fish-oil" }
+      ]
+    },
+    "avoid": [
+      "High-FODMAP prebiotic megadoses during a flare — they often feed the exact bacteria making you miserable.",
+      "Probiotic blends with dozens of random strains and no clinical backing; more strains is not better.",
+      "Harsh herbal 'cleanses' that irritate an already inflamed lining.",
+      "Magnesium oxide as a 'gut' supplement — it mostly draws water into the bowel and can worsen urgency."
+    ],
+    "community": [
+      { "quote": "Matching the probiotic strain to Crohn's instead of grabbing a random bottle was a turning point for me.", "source": "Via Reddit r/CrohnsDisease" },
+      { "quote": "L-glutamine plus dropping high-FODMAP foods during flares finally calmed the daily cramping.", "source": "Via our community survey" },
+      { "quote": "Digestive enzymes with meals took the edge off the bloating that nothing else touched.", "source": "Via Facebook IBD group" }
+    ],
+    "faqs": [
+      { "q": "What's the difference between IBS and IBD?", "a": "IBS is a functional disorder of how the gut behaves, while IBD (like Crohn's and ulcerative colitis) involves actual inflammation and tissue damage. They can feel similar but are managed very differently." },
+      { "q": "Are probiotics safe during a flare?", "a": "It depends on the strain and your condition. Some strains help, others can aggravate symptoms, so choose clinically studied strains and introduce them slowly." },
+      { "q": "Does L-glutamine really heal leaky gut?", "a": "Glutamine is the main fuel for gut lining cells and supports barrier repair in research, though 'leaky gut' itself is still an evolving concept. It is low-risk and widely used." },
+      { "q": "How long until gut supplements work?", "a": "Most people give a protocol 8-12 weeks. The gut lining turns over quickly, but rebuilding balance and reducing inflammation takes consistent time." },
+      { "q": "Should I take enzymes with every meal?", "a": "Many people take broad-spectrum enzymes with their largest meals. If symptoms improve, that is your answer; they are generally safe to use as needed." },
+      { "q": "Is collagen worth it for gut health?", "a": "Collagen supplies amino acids the lining uses to rebuild and is an easy add-on. It is supportive rather than a standalone fix." },
+      { "q": "Can gut issues cause skin problems?", "a": "Yes — the gut-skin axis is well documented, and improving gut health often improves inflammatory skin conditions." },
+      { "q": "Do I need to test before supplementing?", "a": "Testing vitamin D and basic nutrients is wise since deficiencies are common in IBD. Stool and microbiome tests can add context but are not strictly required to start." }
+    ],
+    "clusters": [
+      { "slug": "best-probiotics-for-ibd", "title": "Best Probiotics for IBD" },
+      { "slug": "leaky-gut-supplements", "title": "Leaky Gut Supplements That Have Evidence" },
+      { "slug": "l-glutamine-guide", "title": "The Complete L-Glutamine Guide" },
+      { "slug": "digestive-enzymes-explained", "title": "Digestive Enzymes Explained" },
+      { "slug": "collagen-gut-health", "title": "Collagen for Gut Health" },
+      { "slug": "crohns-supplement-protocol", "title": "A Crohn's Supplement Protocol" },
+      { "slug": "ibs-vs-ibd-difference", "title": "IBS vs IBD: The Real Difference" },
+      { "slug": "gut-skin-axis", "title": "The Gut-Skin Axis" },
+      { "slug": "fodmap-supplements", "title": "FODMAP-Friendly Supplements" },
+      { "slug": "bioptimizers-masszymes-review", "title": "Bioptimizers MassZymes Review" }
+    ]
+  },
+  {
+    "slug": "eczema-psoriasis",
+    "name": "Eczema, Psoriasis & Autoimmune Skin",
+    "shortName": "Eczema & Skin",
+    "navLabel": "Eczema & Skin",
+    "badgeColor": "flare",
+    "tagline": "Your skin is telling you something. Here's how to listen.",
+    "homeHeadline": "Your skin is a window into your immune system. These protocols address the source, not just the surface.",
+    "homeBullets": ["Relentless itch and flares", "Failed conventional treatments", "Topical plus internal approaches"],
+    "stats": { "affected": "~31 million with eczema, ~7.5M with psoriasis", "topSearched": "Vitamin D, fish oil, tallow balm", "updated": "June 2026" },
+    "overview": "Autoimmune and inflammatory skin conditions like eczema and psoriasis are rarely just skin problems — they are visible signals of immune activity and inflammation happening throughout the body. The itch, redness, and flares respond to a mix of internal and external factors: nutrient status, gut health, stress, and the skin barrier itself. Conventional care leans heavily on topical steroids, which can quiet a flare but often leave people cycling through flare and remission without addressing why it keeps happening. A more complete approach pairs internal support — the nutrients and fats that calm inflammation and feed a healthy skin barrier — with thoughtful topical care that protects and repairs rather than just suppresses. Because the gut and skin are so tightly linked, improving digestion and microbial balance frequently improves the skin too.",
+    "quickFacts": {
+      "affects": "Tens of millions, often starting in childhood or early adulthood",
+      "symptoms": "Itch, redness, scaling, cracking, recurring flares",
+      "conventional": "Topical steroids, biologics, moisturizers",
+      "whySupplements": "Address inflammation and barrier health from the inside",
+      "keyNutrients": "Vitamin D, omega-3s, zinc, probiotics, evening primrose oil"
+    },
+    "protocol": {
+      "tier1": [
+        { "name": "Vitamin D3", "why": "Low vitamin D is strongly tied to both eczema and psoriasis severity, and correcting it supports immune balance and barrier function.", "dose": "2000-5000 IU/day", "lookFor": "D3 with K2", "productSlug": "thorne-vitamin-d-k2" },
+        { "name": "Fish oil (EPA/DHA)", "why": "Omega-3s reduce the inflammatory signaling behind flares and support a more resilient skin barrier.", "dose": "1-3 g combined EPA/DHA", "lookFor": "High EPA, third-party tested", "productSlug": "thorne-fish-oil" },
+        { "name": "Tallow balm (topical)", "why": "Grass-fed tallow closely matches skin's own lipids and can soothe and repair the barrier without harsh additives.", "dose": "Apply to affected areas", "lookFor": "Grass-fed, minimal ingredients, fragrance-free", "productSlug": "ancestral-tallow-balm" }
+      ],
+      "tier2": [
+        { "name": "Zinc", "why": "Zinc supports wound healing and immune regulation; deficiency worsens many skin conditions.", "dose": "15-30 mg/day", "lookFor": "Picolinate or bisglycinate, balance with copper", "productSlug": "thorne-zinc" },
+        { "name": "Evening primrose oil", "why": "Its GLA content supports skin barrier lipids and may reduce itch for some people.", "dose": "500-1000 mg/day", "lookFor": "Cold-pressed, standardized GLA", "productSlug": "life-extension-evening-primrose" }
+      ],
+      "tier3": [
+        { "name": "Probiotics (L. rhamnosus)", "why": "Specific strains have evidence for reducing eczema, reflecting the gut-skin connection.", "dose": "Per product", "lookFor": "Lactobacillus rhamnosus strains", "productSlug": "seed-ds01" },
+        { "name": "Collagen peptides", "why": "Provides building blocks for skin structure and may support barrier repair.", "dose": "10-20 g/day", "lookFor": "Hydrolyzed peptides", "productSlug": "life-extension-collagen" }
+      ]
+    },
+    "avoid": [
+      "Relying on topical steroids indefinitely without addressing internal drivers — long-term use thins skin and can lead to withdrawal flares.",
+      "Fragranced 'natural' creams loaded with essential oils that frequently trigger reactive skin.",
+      "High-dose niacin flushing products marketed for skin that can worsen redness.",
+      "Skipping the gut entirely — ignoring digestion often stalls skin progress."
+    ],
+    "community": [
+      { "quote": "Getting my vitamin D up and switching to a simple tallow balm did more than a year of prescription creams.", "source": "Via Reddit r/eczema" },
+      { "quote": "High-EPA fish oil noticeably cut down my psoriasis flares over a couple of months.", "source": "Via our community survey" },
+      { "quote": "Once I treated my gut, my skin finally stopped cycling every few weeks.", "source": "Via Facebook psoriasis group" }
+    ],
+    "faqs": [
+      { "q": "Can supplements really help eczema?", "a": "They can support the underlying inflammation and barrier health, especially vitamin D and omega-3s. They work best alongside good topical care, not instead of it." },
+      { "q": "Is tallow balm better than regular moisturizer?", "a": "Tallow closely matches skin's own lipids and works well for many people with reactive skin, but the best moisturizer is the one your skin tolerates. It is worth trialing." },
+      { "q": "How long before I see results?", "a": "Internal changes like vitamin D and fish oil typically take 8-12 weeks to show meaningful skin improvement." },
+      { "q": "What's the gut-skin connection?", "a": "The gut microbiome influences immune signaling that affects the skin. Improving gut health often improves inflammatory skin conditions." },
+      { "q": "Are topical steroids bad?", "a": "They are useful for calming acute flares, but long-term continuous use carries risks like skin thinning and withdrawal. Use them strategically and address root causes." },
+      { "q": "Do probiotics help eczema?", "a": "Certain Lactobacillus rhamnosus strains have evidence for reducing eczema, particularly in children. Results vary by strain and person." },
+      { "q": "Can diet trigger flares?", "a": "For some people, specific foods drive flares. A structured elimination trial can help identify personal triggers." },
+      { "q": "Is fish oil or evening primrose better?", "a": "They work differently — fish oil for EPA/DHA, evening primrose for GLA. Many people benefit from fish oil first and add primrose oil if needed." }
+    ],
+    "clusters": [
+      { "slug": "best-supplements-for-eczema", "title": "Best Supplements for Eczema" },
+      { "slug": "tallow-balm-review", "title": "Tallow Balm Review" },
+      { "slug": "gut-skin-connection", "title": "The Gut-Skin Connection" },
+      { "slug": "vitamin-d-psoriasis", "title": "Vitamin D for Psoriasis" },
+      { "slug": "best-moisturizers-eczema", "title": "Best Moisturizers for Eczema" },
+      { "slug": "fish-oil-skin-inflammation", "title": "Fish Oil for Skin Inflammation" },
+      { "slug": "elimination-diet-eczema", "title": "The Elimination Diet for Eczema" },
+      { "slug": "probiotics-eczema-review", "title": "Probiotics for Eczema: A Review" },
+      { "slug": "topical-steroid-alternatives", "title": "Topical Steroid Alternatives" }
+    ]
+  },
+  {
+    "slug": "fibromyalgia-chronic-fatigue",
+    "name": "Fibromyalgia & Chronic Fatigue",
+    "shortName": "Fibromyalgia",
+    "navLabel": "Fibromyalgia",
+    "badgeColor": "secondary",
+    "tagline": "You're not making it up. And there are things that actually help.",
+    "homeHeadline": "When doctors tell you nothing is wrong but you know something is. We hear you.",
+    "homeBullets": ["Widespread pain and tenderness", "Unrefreshing sleep", "The supplements no one talks about"],
+    "stats": { "affected": "~4 million Americans with fibromyalgia", "topSearched": "Magnesium malate, CoQ10, D-ribose", "updated": "June 2026" },
+    "overview": "Fibromyalgia and chronic fatigue syndrome are among the most dismissed conditions in medicine, partly because standard tests often come back normal. But the lived experience — widespread pain, crushing fatigue, unrefreshing sleep, and post-exertional crashes — is very real and increasingly understood as a problem of energy metabolism, nervous system sensitization, and mitochondrial function. Because routine labs rarely capture these mechanisms, people are frequently told nothing is wrong and left without a plan. A supplement approach for these conditions focuses on supporting cellular energy production, calming an overactive nervous system, and replacing the nutrients that the body burns through under chronic stress. The aim is not a cure but tangible improvements in energy, pain, and sleep that let people reclaim more of their day.",
+    "quickFacts": {
+      "affects": "Millions, predominantly women, often undiagnosed for years",
+      "symptoms": "Widespread pain, fatigue, brain fog, poor sleep, crashes",
+      "conventional": "Pain medication, antidepressants, lifestyle advice",
+      "whySupplements": "Support mitochondrial energy and calm the nervous system",
+      "keyNutrients": "Magnesium malate, CoQ10, D-ribose, methylated B vitamins"
+    },
+    "protocol": {
+      "tier1": [
+        { "name": "Magnesium malate", "why": "Magnesium calms the nervous system and supports energy production, and the malate form adds malic acid involved in cellular energy. Many fibromyalgia patients report less pain.", "dose": "300-600 mg/day", "lookFor": "Magnesium malate specifically", "productSlug": "pure-encapsulations-magnesium" },
+        { "name": "CoQ10 (ubiquinol)", "why": "CoQ10 is essential for mitochondrial energy, and the ubiquinol form is better absorbed. Low levels are common in chronic fatigue.", "dose": "100-300 mg/day", "lookFor": "Ubiquinol, the reduced form", "productSlug": "life-extension-coq10" },
+        { "name": "Methylated B-complex", "why": "B vitamins drive energy metabolism, and methylated forms are usable even by those with common methylation variants.", "dose": "One serving daily", "lookFor": "Methylfolate and methylcobalamin", "productSlug": "thorne-b-complex" }
+      ],
+      "tier2": [
+        { "name": "D-Ribose", "why": "D-ribose is a sugar used to regenerate cellular energy (ATP) and has small studies suggesting improved energy in fibromyalgia.", "dose": "5 g, 2-3x/day", "lookFor": "Pure D-ribose powder", "productSlug": "thorne-d-ribose" },
+        { "name": "Alpha lipoic acid", "why": "An antioxidant that supports mitochondrial function and nerve health.", "dose": "300-600 mg/day", "lookFor": "R-ALA or stabilized ALA", "productSlug": "pure-encapsulations-ala" }
+      ],
+      "tier3": [
+        { "name": "NAD+ support", "why": "NAD+ precursors support the energy machinery of the cell and are popular in the chronic fatigue community.", "dose": "Per product", "lookFor": "NR or NMN from reputable brands", "productSlug": "life-extension-nad" },
+        { "name": "Low-dose lithium orotate", "why": "Some patients use very low-dose lithium orotate for mood and neuroprotection. Evidence is limited; approach cautiously.", "dose": "5 mg elemental or less", "lookFor": "Clearly labeled elemental dose", "productSlug": "seeking-health-lithium" }
+      ]
+    },
+    "avoid": [
+      "Stimulant-heavy 'energy' formulas that borrow against tomorrow and worsen crashes.",
+      "Magnesium oxide, which is poorly absorbed and mostly causes loose stools.",
+      "Pushing through exercise like a healthy person — post-exertional malaise needs pacing, not boot camps.",
+      "High-dose generic B vitamins in cyanocobalamin form if you have methylation issues."
+    ],
+    "community": [
+      { "quote": "Magnesium malate was the first supplement that actually touched my pain instead of just my sleep.", "source": "Via Reddit r/Fibromyalgia" },
+      { "quote": "Ubiquinol plus pacing gave me a couple of usable hours back each day.", "source": "Via our community survey" },
+      { "quote": "D-ribose sounded too simple to work, but the afternoon crashes got noticeably gentler.", "source": "Via Facebook CFS group" }
+    ],
+    "faqs": [
+      { "q": "Why do my labs come back normal?", "a": "Standard labs don't measure energy metabolism or nervous system sensitization, which are central to these conditions. Normal results don't mean nothing is wrong." },
+      { "q": "What's the best magnesium for fibromyalgia?", "a": "Magnesium malate is the community favorite because malic acid is involved in energy production, and the form is well absorbed and calming." },
+      { "q": "Does CoQ10 really help fatigue?", "a": "CoQ10 supports mitochondrial energy and low levels are common in chronic fatigue. The ubiquinol form is better absorbed and worth a 2-3 month trial." },
+      { "q": "Is D-ribose worth trying?", "a": "Small studies and strong community reports suggest it can improve energy. It is generally safe, though it is a sugar, so monitor if you have blood sugar concerns." },
+      { "q": "Should I exercise?", "a": "Gentle, paced movement helps, but pushing too hard triggers post-exertional malaise. Pacing and gradual conditioning beat intense exercise." },
+      { "q": "What about long COVID?", "a": "Long COVID shares many features with chronic fatigue, and similar energy-support strategies are being explored. Work with a knowledgeable clinician." },
+      { "q": "Can supplements fix my sleep?", "a": "Magnesium, glycine, and good sleep habits can improve sleep quality, which is often unrefreshing in these conditions." },
+      { "q": "Are methylated B vitamins necessary?", "a": "If you have common methylation gene variants, methylated forms are more usable. They are a safe default even if you haven't tested." }
+    ],
+    "clusters": [
+      { "slug": "best-supplements-fibromyalgia", "title": "Best Supplements for Fibromyalgia" },
+      { "slug": "magnesium-malate-review", "title": "Magnesium Malate Review" },
+      { "slug": "coq10-chronic-fatigue", "title": "CoQ10 for Chronic Fatigue" },
+      { "slug": "d-ribose-guide", "title": "The D-Ribose Guide" },
+      { "slug": "methylated-b-vitamins", "title": "Methylated B Vitamins Explained" },
+      { "slug": "nad-energy-supplements", "title": "NAD+ Energy Supplements" },
+      { "slug": "sleep-supplements", "title": "Sleep Supplements That Help" },
+      { "slug": "exercise-intolerance-explained", "title": "Exercise Intolerance Explained" },
+      { "slug": "long-covid-overlap", "title": "The Long COVID Overlap" }
+    ]
+  },
+  {
+    "slug": "histamine-mcas",
+    "name": "Histamine Intolerance & MCAS",
+    "shortName": "Histamine & MCAS",
+    "navLabel": "Histamine & MCAS",
+    "badgeColor": "flare",
+    "tagline": "The condition that explains everything — and that most doctors still don't understand.",
+    "homeHeadline": "Reacting to everything? You're not imagining it. This is one of the most underdiagnosed conditions we cover.",
+    "homeBullets": ["Flushing, hives, heart racing after eating", "Multiple food and chemical sensitivities", "The DAO enzyme protocol"],
+    "stats": { "affected": "Estimated 1-3% with histamine intolerance", "topSearched": "DAO enzyme, quercetin, vitamin C", "updated": "June 2026" },
+    "overview": "Histamine intolerance and mast cell activation syndrome (MCAS) are among the most underdiagnosed conditions in medicine, often leaving people reacting to foods, smells, temperature changes, and stress with no clear explanation. Histamine is a normal signaling molecule, but when the body produces too much or can't break it down fast enough, it spills over and causes flushing, hives, headaches, racing heart, digestive distress, and anxiety. Histamine intolerance usually reflects a shortage of the enzymes (especially DAO) that clear dietary histamine, while MCAS involves overactive mast cells releasing histamine and other mediators. Because symptoms touch so many systems, patients are frequently told it's all in their head. A practical approach focuses on lowering the histamine load, supporting the enzymes that break histamine down, and stabilizing mast cells — paired with careful attention to which foods and even which probiotic strains help versus hurt.",
+    "quickFacts": {
+      "affects": "Likely underdiagnosed; more common in women",
+      "symptoms": "Flushing, hives, headaches, palpitations, GI distress, anxiety",
+      "conventional": "Antihistamines, mast cell stabilizers, trigger avoidance",
+      "whySupplements": "Lower histamine load and support DAO breakdown",
+      "keyNutrients": "DAO enzyme, quercetin, vitamin C, B6 (P5P), copper"
+    },
+    "protocol": {
+      "tier1": [
+        { "name": "DAO enzyme", "why": "Diamine oxidase breaks down histamine from food. Supplementing DAO before meals can dramatically reduce reactions for people low in this enzyme.", "dose": "1 capsule before meals", "lookFor": "Standardized DAO units, taken pre-meal", "productSlug": "seeking-health-histdao" },
+        { "name": "Quercetin", "why": "Quercetin is a natural mast cell stabilizer that can reduce histamine release and calm reactivity.", "dose": "500-1000 mg/day", "lookFor": "Quercetin phytosome for absorption", "productSlug": "thorne-quercetin" },
+        { "name": "Vitamin C (buffered)", "why": "Vitamin C helps degrade histamine and supports DAO activity. The buffered form is gentler for sensitive people.", "dose": "1000-2000 mg/day", "lookFor": "Buffered, low-additive formula", "productSlug": "seeking-health-vitamin-c" }
+      ],
+      "tier2": [
+        { "name": "Vitamin B6 (P5P)", "why": "B6 is a cofactor for the DAO enzyme. The active P5P form supports histamine breakdown.", "dose": "20-50 mg/day", "lookFor": "Pyridoxal-5-phosphate (P5P)", "productSlug": "seeking-health-p5p" },
+        { "name": "Copper", "why": "DAO is a copper-dependent enzyme, and low copper can impair histamine clearance. Balance with zinc.", "dose": "1-2 mg/day", "lookFor": "Low-dose copper bisglycinate", "productSlug": "seeking-health-copper" }
+      ],
+      "tier3": [
+        { "name": "Luteolin", "why": "Like quercetin, luteolin helps stabilize mast cells and is popular in the MCAS community.", "dose": "Per product", "lookFor": "Often combined with quercetin", "productSlug": "thorne-quercetin" },
+        { "name": "Low-histamine probiotics", "why": "Only specific strains are safe. Histamine-degrading strains may help, but the wrong ones make reactions worse.", "dose": "Per product", "lookFor": "Bifidobacterium and L. plantarum, NOT L. casei or bulgaricus", "productSlug": "seeking-health-probiota-histaminx" }
+      ]
+    },
+    "avoid": [
+      "High-histamine probiotic strains — L. casei and L. bulgaricus actually PRODUCE histamine and commonly worsen symptoms. This is the single most important thing to get right.",
+      "Fermented 'gut health' supplements (kefir-based, fermented blends) that are loaded with histamine.",
+      "Generic multivitamins with cheap fillers and additives that sensitive people react to.",
+      "Mega-dosing niacin or B vitamins in non-active forms, which can trigger flushing and reactions."
+    ],
+    "community": [
+      { "quote": "DAO before meals was the first thing that let me eat leftovers without flushing and a racing heart.", "source": "Via Reddit r/MCAS" },
+      { "quote": "I had no idea my 'healthy' probiotic was a histamine producer. Switching strains changed everything.", "source": "Via our community survey" },
+      { "quote": "Quercetin plus buffered vitamin C took my baseline reactivity way down.", "source": "Via Facebook histamine intolerance group" }
+    ],
+    "faqs": [
+      { "q": "What's the difference between histamine intolerance and MCAS?", "a": "Histamine intolerance is usually a problem clearing dietary histamine (often low DAO), while MCAS involves mast cells releasing too many mediators. They overlap and the strategies are similar, but MCAS is broader and more complex." },
+      { "q": "How does DAO enzyme work?", "a": "DAO breaks down histamine in the gut. Taking it shortly before meals helps degrade the histamine in food before it causes a reaction." },
+      { "q": "Which probiotics should I avoid?", "a": "Avoid histamine-producing strains like L. casei and L. bulgaricus. Look instead for Bifidobacterium and L. plantarum, which are histamine-neutral or degrading." },
+      { "q": "Can quercetin replace antihistamines?", "a": "Quercetin stabilizes mast cells and can reduce baseline reactivity, but it is slower and gentler than medication. Many people use both under guidance." },
+      { "q": "Why does B6 matter?", "a": "B6 (as P5P) is a required cofactor for the DAO enzyme, so adequate B6 supports your ability to break down histamine." },
+      { "q": "Is there a test for this?", "a": "Testing is imperfect. DAO blood levels and tryptase can offer clues, but diagnosis often relies on symptom patterns and response to a low-histamine approach." },
+      { "q": "What foods are high in histamine?", "a": "Aged cheeses, cured meats, fermented foods, alcohol, leftovers, and certain fish are common triggers. Freshness matters a lot." },
+      { "q": "Will a low-histamine diet fix everything?", "a": "It lowers the load and reduces symptoms, but it is meant to be a tool, not a permanent restrictive lifestyle. The goal is to widen tolerance over time." }
+    ],
+    "clusters": [
+      { "slug": "histamine-intolerance-vs-mcas", "title": "Histamine Intolerance vs MCAS" },
+      { "slug": "best-dao-enzyme-supplements", "title": "Best DAO Enzyme Supplements" },
+      { "slug": "quercetin-guide", "title": "The Quercetin Guide" },
+      { "slug": "low-histamine-probiotics", "title": "Low-Histamine Probiotics" },
+      { "slug": "high-histamine-foods-list", "title": "High-Histamine Foods List" },
+      { "slug": "symptoms-checklist", "title": "Histamine Symptoms Checklist" },
+      { "slug": "seeking-health-histdao-review", "title": "Seeking Health HistDAO Review" },
+      { "slug": "mast-cell-diet-guide", "title": "The Mast Cell Diet Guide" },
+      { "slug": "b6-copper-dao-connection", "title": "The B6, Copper & DAO Connection" },
+      { "slug": "mcas-testing-explained", "title": "MCAS Testing Explained" }
+    ]
+  }
+]
