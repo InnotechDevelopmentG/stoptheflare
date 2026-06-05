@@ -28,7 +28,7 @@
         { "name": "B12 (methylcobalamin)", "why": "Hashimoto's frequently coexists with B12 deficiency, compounding fatigue and brain fog.", "dose": "1000 mcg/day", "lookFor": "Methylcobalamin, not cyanocobalamin", "productSlug": "pure-encapsulations-b12" }
       ],
       "tier3": [
-        { "name": "Inositol (myo + d-chiro)", "why": "Some patients report improved TSH and well-being when inositol is combined with selenium. Evidence is emerging but promising.", "dose": "600 mg myo-inositol", "lookFor": "Myo-inositol, optionally with d-chiro blend", "productSlug": "life-extension-inositol" },
+        { "name": "Inositol (myo + d-chiro)", "why": "Some patients report improved TSH and well-being when inositol is combined with selenium. Evidence is emerging but promising.", "dose": "600 mg myo-inositol", "lookFor": "Myo-inositol, optionally with d-chiro blend", "productSlug": "wholesome-story-myo-inositol" },
         { "name": "Iron (if deficient)", "why": "Low ferritin impairs thyroid hormone use and is common in menstruating women. Test before supplementing.", "dose": "Per lab results", "lookFor": "Gentle forms like bisglycinate, only if ferritin is low", "productSlug": "thorne-iron" }
       ]
     },
@@ -86,15 +86,15 @@
       "tier1": [
         { "name": "Targeted probiotics", "why": "The right strains can reduce inflammation and support remission in IBD, but strain selection matters more than CFU count. Match the strain to your condition.", "dose": "Per product, condition-specific strains", "lookFor": "Clinically studied strains, not generic blends", "productSlug": "seed-ds01" },
         { "name": "L-Glutamine", "why": "Glutamine is the primary fuel for the cells lining your gut and supports barrier repair. It is one of the most studied amino acids for intestinal health.", "dose": "5-10 g/day", "lookFor": "Pure L-glutamine powder, no fillers", "productSlug": "thorne-l-glutamine" },
-        { "name": "Digestive enzymes", "why": "When the gut is inflamed, enzyme output often drops, leaving food poorly broken down and feeding symptoms. Enzymes reduce that burden.", "dose": "With meals", "lookFor": "Broad-spectrum, plant or microbial enzymes", "productSlug": "bioptimizers-masszymes" }
+        { "name": "Digestive enzymes", "why": "When the gut is inflamed, enzyme output often drops, leaving food poorly broken down and feeding symptoms. Enzymes reduce that burden.", "dose": "With meals", "lookFor": "Broad-spectrum, plant or microbial enzymes", "productSlug": "pure-encapsulations-digestive-enzymes" }
       ],
       "tier2": [
-        { "name": "Zinc carnosine", "why": "This specific form supports the stomach and gut lining and has solid evidence for soothing the mucosa.", "dose": "75 mg/day", "lookFor": "Zinc-carnosine complex (PepZin GI)", "productSlug": "thorne-zinc" },
-        { "name": "Collagen peptides", "why": "Collagen provides the amino acids the gut lining uses to rebuild and is easy to add to a routine.", "dose": "10-20 g/day", "lookFor": "Hydrolyzed peptides, unflavored", "productSlug": "life-extension-collagen" }
+        { "name": "Zinc carnosine", "why": "This specific form supports the stomach and gut lining and has solid evidence for soothing the mucosa.", "dose": "75 mg/day", "lookFor": "Zinc-carnosine complex (PepZin GI)", "productSlug": "doctors-best-pepzin-gi" },
+        { "name": "Collagen peptides", "why": "Collagen provides the amino acids the gut lining uses to rebuild and is easy to add to a routine.", "dose": "10-20 g/day", "lookFor": "Hydrolyzed peptides, unflavored", "productSlug": "vital-proteins-collagen" }
       ],
       "tier3": [
         { "name": "Vitamin D", "why": "Low vitamin D is common in IBD and tied to more active disease. Correcting it supports immune regulation.", "dose": "2000-5000 IU/day", "lookFor": "D3 with K2", "productSlug": "thorne-vitamin-d-k2" },
-        { "name": "Fish oil (EPA/DHA)", "why": "Omega-3s help lower the inflammatory tone of the gut and the body overall.", "dose": "1-2 g combined EPA/DHA", "lookFor": "Third-party tested for purity", "productSlug": "thorne-fish-oil" }
+        { "name": "Fish oil (EPA/DHA)", "why": "Omega-3s help lower the inflammatory tone of the gut and the body overall.", "dose": "1-2 g combined EPA/DHA", "lookFor": "Third-party tested for purity", "productSlug": "nordic-naturals-ultimate-omega" }
       ]
     },
     "avoid": [
@@ -152,16 +152,16 @@
     "protocol": {
       "tier1": [
         { "name": "Vitamin D3", "why": "Low vitamin D is strongly tied to both eczema and psoriasis severity, and correcting it supports immune balance and barrier function.", "dose": "2000-5000 IU/day", "lookFor": "D3 with K2", "productSlug": "thorne-vitamin-d-k2" },
-        { "name": "Fish oil (EPA/DHA)", "why": "Omega-3s reduce the inflammatory signaling behind flares and support a more resilient skin barrier.", "dose": "1-3 g combined EPA/DHA", "lookFor": "High EPA, third-party tested", "productSlug": "thorne-fish-oil" },
-        { "name": "Tallow balm (topical)", "why": "Grass-fed tallow closely matches skin's own lipids and can soothe and repair the barrier without harsh additives.", "dose": "Apply to affected areas", "lookFor": "Grass-fed, minimal ingredients, fragrance-free", "productSlug": "ancestral-tallow-balm" }
+        { "name": "Fish oil (EPA/DHA)", "why": "Omega-3s reduce the inflammatory signaling behind flares and support a more resilient skin barrier.", "dose": "1-3 g combined EPA/DHA", "lookFor": "High EPA, third-party tested", "productSlug": "nordic-naturals-ultimate-omega" },
+        { "name": "Tallow balm (topical)", "why": "Grass-fed tallow closely matches skin's own lipids and can soothe and repair the barrier without harsh additives.", "dose": "Apply to affected areas", "lookFor": "Grass-fed, minimal ingredients, fragrance-free", "productSlug": "cerave-eczema-cream" }
       ],
       "tier2": [
         { "name": "Zinc", "why": "Zinc supports wound healing and immune regulation; deficiency worsens many skin conditions.", "dose": "15-30 mg/day", "lookFor": "Picolinate or bisglycinate, balance with copper", "productSlug": "thorne-zinc" },
-        { "name": "Evening primrose oil", "why": "Its GLA content supports skin barrier lipids and may reduce itch for some people.", "dose": "500-1000 mg/day", "lookFor": "Cold-pressed, standardized GLA", "productSlug": "life-extension-evening-primrose" }
+        { "name": "Evening primrose oil", "why": "Its GLA content supports skin barrier lipids and may reduce itch for some people.", "dose": "500-1000 mg/day", "lookFor": "Cold-pressed, standardized GLA", "productSlug": "thorne-curcumin-phytosome" }
       ],
       "tier3": [
         { "name": "Probiotics (L. rhamnosus)", "why": "Specific strains have evidence for reducing eczema, reflecting the gut-skin connection.", "dose": "Per product", "lookFor": "Lactobacillus rhamnosus strains", "productSlug": "seed-ds01" },
-        { "name": "Collagen peptides", "why": "Provides building blocks for skin structure and may support barrier repair.", "dose": "10-20 g/day", "lookFor": "Hydrolyzed peptides", "productSlug": "life-extension-collagen" }
+        { "name": "Collagen peptides", "why": "Provides building blocks for skin structure and may support barrier repair.", "dose": "10-20 g/day", "lookFor": "Hydrolyzed peptides", "productSlug": "vital-proteins-collagen" }
       ]
     },
     "avoid": [
@@ -217,17 +217,17 @@
     },
     "protocol": {
       "tier1": [
-        { "name": "Magnesium malate", "why": "Magnesium calms the nervous system and supports energy production, and the malate form adds malic acid involved in cellular energy. Many fibromyalgia patients report less pain.", "dose": "300-600 mg/day", "lookFor": "Magnesium malate specifically", "productSlug": "pure-encapsulations-magnesium" },
-        { "name": "CoQ10 (ubiquinol)", "why": "CoQ10 is essential for mitochondrial energy, and the ubiquinol form is better absorbed. Low levels are common in chronic fatigue.", "dose": "100-300 mg/day", "lookFor": "Ubiquinol, the reduced form", "productSlug": "life-extension-coq10" },
+        { "name": "Magnesium malate", "why": "Magnesium calms the nervous system and supports energy production, and the malate form adds malic acid involved in cellular energy. Many fibromyalgia patients report less pain.", "dose": "300-600 mg/day", "lookFor": "Magnesium malate specifically", "productSlug": "source-naturals-magnesium-malate" },
+        { "name": "CoQ10 (ubiquinol)", "why": "CoQ10 is essential for mitochondrial energy, and the ubiquinol form is better absorbed. Low levels are common in chronic fatigue.", "dose": "100-300 mg/day", "lookFor": "Ubiquinol, the reduced form", "productSlug": "thorne-coq10" },
         { "name": "Methylated B-complex", "why": "B vitamins drive energy metabolism, and methylated forms are usable even by those with common methylation variants.", "dose": "One serving daily", "lookFor": "Methylfolate and methylcobalamin", "productSlug": "thorne-b-complex" }
       ],
       "tier2": [
-        { "name": "D-Ribose", "why": "D-ribose is a sugar used to regenerate cellular energy (ATP) and has small studies suggesting improved energy in fibromyalgia.", "dose": "5 g, 2-3x/day", "lookFor": "Pure D-ribose powder", "productSlug": "thorne-d-ribose" },
-        { "name": "Alpha lipoic acid", "why": "An antioxidant that supports mitochondrial function and nerve health.", "dose": "300-600 mg/day", "lookFor": "R-ALA or stabilized ALA", "productSlug": "pure-encapsulations-ala" }
+        { "name": "D-Ribose", "why": "D-ribose is a sugar used to regenerate cellular energy (ATP) and has small studies suggesting improved energy in fibromyalgia.", "dose": "5 g, 2-3x/day", "lookFor": "Pure D-ribose powder", "productSlug": "jarrow-d-ribose" },
+        { "name": "Alpha lipoic acid", "why": "An antioxidant that supports mitochondrial function and nerve health.", "dose": "300-600 mg/day", "lookFor": "R-ALA or stabilized ALA", "productSlug": "doctors-best-alcar" }
       ],
       "tier3": [
-        { "name": "NAD+ support", "why": "NAD+ precursors support the energy machinery of the cell and are popular in the chronic fatigue community.", "dose": "Per product", "lookFor": "NR or NMN from reputable brands", "productSlug": "life-extension-nad" },
-        { "name": "Low-dose lithium orotate", "why": "Some patients use very low-dose lithium orotate for mood and neuroprotection. Evidence is limited; approach cautiously.", "dose": "5 mg elemental or less", "lookFor": "Clearly labeled elemental dose", "productSlug": "seeking-health-lithium" }
+        { "name": "NAD+ support", "why": "NAD+ precursors support the energy machinery of the cell and are popular in the chronic fatigue community.", "dose": "Per product", "lookFor": "NR or NMN from reputable brands", "productSlug": "doctors-best-same" },
+        { "name": "Low-dose lithium orotate", "why": "Some patients use very low-dose lithium orotate for mood and neuroprotection. Evidence is limited; approach cautiously.", "dose": "5 mg elemental or less", "lookFor": "Clearly labeled elemental dose", "productSlug": "qunol-coq10" }
       ]
     },
     "avoid": [
@@ -283,16 +283,16 @@
     },
     "protocol": {
       "tier1": [
-        { "name": "DAO enzyme", "why": "Diamine oxidase breaks down histamine from food. Supplementing DAO before meals can dramatically reduce reactions for people low in this enzyme.", "dose": "1 capsule before meals", "lookFor": "Standardized DAO units, taken pre-meal", "productSlug": "seeking-health-histdao" },
-        { "name": "Quercetin", "why": "Quercetin is a natural mast cell stabilizer that can reduce histamine release and calm reactivity.", "dose": "500-1000 mg/day", "lookFor": "Quercetin phytosome for absorption", "productSlug": "thorne-quercetin" },
-        { "name": "Vitamin C (buffered)", "why": "Vitamin C helps degrade histamine and supports DAO activity. The buffered form is gentler for sensitive people.", "dose": "1000-2000 mg/day", "lookFor": "Buffered, low-additive formula", "productSlug": "seeking-health-vitamin-c" }
+        { "name": "DAO enzyme", "why": "Diamine oxidase breaks down histamine from food. Supplementing DAO before meals can dramatically reduce reactions for people low in this enzyme.", "dose": "1 capsule before meals", "lookFor": "Standardized DAO units, taken pre-meal", "productSlug": "seeking-health-dao-enzyme" },
+        { "name": "Quercetin", "why": "Quercetin is a natural mast cell stabilizer that can reduce histamine release and calm reactivity.", "dose": "500-1000 mg/day", "lookFor": "Quercetin phytosome for absorption", "productSlug": "thorne-quercetin-phytosome" },
+        { "name": "Vitamin C (buffered)", "why": "Vitamin C helps degrade histamine and supports DAO activity. The buffered form is gentler for sensitive people.", "dose": "1000-2000 mg/day", "lookFor": "Buffered, low-additive formula", "productSlug": "pure-encapsulations-buffered-vitamin-c" }
       ],
       "tier2": [
         { "name": "Vitamin B6 (P5P)", "why": "B6 is a cofactor for the DAO enzyme. The active P5P form supports histamine breakdown.", "dose": "20-50 mg/day", "lookFor": "Pyridoxal-5-phosphate (P5P)", "productSlug": "seeking-health-p5p" },
-        { "name": "Copper", "why": "DAO is a copper-dependent enzyme, and low copper can impair histamine clearance. Balance with zinc.", "dose": "1-2 mg/day", "lookFor": "Low-dose copper bisglycinate", "productSlug": "seeking-health-copper" }
+        { "name": "Copper", "why": "DAO is a copper-dependent enzyme, and low copper can impair histamine clearance. Balance with zinc.", "dose": "1-2 mg/day", "lookFor": "Low-dose copper bisglycinate", "productSlug": "life-extension-pea" }
       ],
       "tier3": [
-        { "name": "Luteolin", "why": "Like quercetin, luteolin helps stabilize mast cells and is popular in the MCAS community.", "dose": "Per product", "lookFor": "Often combined with quercetin", "productSlug": "thorne-quercetin" },
+        { "name": "Luteolin", "why": "Like quercetin, luteolin helps stabilize mast cells and is popular in the MCAS community.", "dose": "Per product", "lookFor": "Often combined with quercetin", "productSlug": "thorne-quercetin-phytosome" },
         { "name": "Low-histamine probiotics", "why": "Only specific strains are safe. Histamine-degrading strains may help, but the wrong ones make reactions worse.", "dose": "Per product", "lookFor": "Bifidobacterium and L. plantarum, NOT L. casei or bulgaricus", "productSlug": "seeking-health-probiota-histaminx" }
       ]
     },
