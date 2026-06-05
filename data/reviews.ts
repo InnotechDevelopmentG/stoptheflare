@@ -50,7 +50,7 @@ export const reviews: Review[] = [
   },
   {
     slug: 'seeking-health-histdao-review',
-    productId: 'seeking-health-histdao',
+    productId: 'seeking-health-dao-enzyme',
     title: 'Seeking Health HistDAO Review: Does the DAO Enzyme Actually Work?',
     conditionSlugs: ['histamine-mcas'],
     updated: '2026-05-26',
