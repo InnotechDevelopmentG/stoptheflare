@@ -3,14 +3,16 @@
     "id": "thorne-selenium",
     "name": "Thorne Selenium (Selenomethionine)",
     "brand": "Thorne",
-    "conditions": ["hashimotos"],
+    "conditions": [
+      "hashimotos"
+    ],
     "rating": 4.7,
     "affiliateSlug": "thorne-selenium",
     "price": "$22.00",
     "verdict": "The most evidence-backed product on this list — 200 mcg selenomethionine is the exact form shown to lower TPO antibodies in randomized trials.",
     "bestFor": "Lowering TPO antibodies",
     "dose": "200 mcg",
-    "image": "https://m.media-amazon.com/images/P/B00B5N9IDQ.01._SL500_.jpg",
+    "image": "/products/thorne-selenium.jpg",
     "amazon": true,
     "direct": false
   },
@@ -18,14 +20,16 @@
     "id": "pure-encapsulations-selenium",
     "name": "Pure Encapsulations Selenium (Selenomethionine)",
     "brand": "Pure Encapsulations",
-    "conditions": ["hashimotos"],
+    "conditions": [
+      "hashimotos"
+    ],
     "rating": 4.6,
     "affiliateSlug": "pure-encapsulations-selenium",
     "price": "$14.00",
     "verdict": "Essentially the same clinical-grade selenomethionine as Thorne at a lower price — best value in the most critical Hashimoto's category.",
     "bestFor": "Budget TPO antibody support",
     "dose": "200 mcg",
-    "image": "https://m.media-amazon.com/images/P/B000H85L5Y.01._SL500_.jpg",
+    "image": "/products/pure-encapsulations-selenium.jpg",
     "amazon": true,
     "direct": false
   },
@@ -33,14 +37,16 @@
     "id": "wholesome-story-myo-inositol",
     "name": "Wholesome Story Myo-Inositol & D-Chiro Inositol",
     "brand": "Wholesome Story",
-    "conditions": ["hashimotos"],
+    "conditions": [
+      "hashimotos"
+    ],
     "rating": 4.7,
     "affiliateSlug": "wholesome-story-myo-inositol",
     "price": "$27.00",
     "verdict": "Pairing myo-inositol with selenium reduces TSH and thyroglobulin antibodies better than selenium alone — the most-reviewed inositol blend on Amazon.",
     "bestFor": "TSH & antibody support (with selenium)",
     "dose": "2,000 mg myo-inositol",
-    "image": "https://m.media-amazon.com/images/P/B07HX2DMY8.01._SL500_.jpg",
+    "image": "/products/wholesome-story-myo-inositol.jpg",
     "amazon": true,
     "direct": false
   },
@@ -48,14 +54,19 @@
     "id": "nordic-naturals-ultimate-omega",
     "name": "Nordic Naturals Ultimate Omega",
     "brand": "Nordic Naturals",
-    "conditions": ["hashimotos", "gut-health", "eczema-psoriasis", "fibromyalgia-chronic-fatigue"],
+    "conditions": [
+      "hashimotos",
+      "gut-health",
+      "eczema-psoriasis",
+      "fibromyalgia-chronic-fatigue"
+    ],
     "rating": 4.7,
     "affiliateSlug": "nordic-naturals-ultimate-omega",
     "price": "$35.00",
     "verdict": "The most-reviewed triglyceride-form fish oil on Amazon (4.7★, 24k+ ratings) — the benchmark anti-inflammatory omega-3 across all five conditions.",
     "bestFor": "Anti-inflammatory support",
     "dose": "1,280 mg omega-3 (2 softgels)",
-    "image": "https://m.media-amazon.com/images/P/B0739KKHWL.01._SL500_.jpg",
+    "image": "/products/nordic-naturals-ultimate-omega.jpg",
     "amazon": true,
     "direct": false
   },
@@ -63,14 +74,18 @@
     "id": "thorne-vitamin-d-k2",
     "name": "Thorne Vitamin D + K2 Liquid",
     "brand": "Thorne",
-    "conditions": ["hashimotos", "eczema-psoriasis", "histamine-mcas"],
+    "conditions": [
+      "hashimotos",
+      "eczema-psoriasis",
+      "histamine-mcas"
+    ],
     "rating": 4.7,
     "affiliateSlug": "thorne-vitamin-d-k2",
     "price": "$22.00",
     "verdict": "Flexible metered-drop liquid D3/K2 from a third-party certified brand — vitamin D deficiency correlates strongly with higher thyroid antibodies and worse skin.",
     "bestFor": "Correcting low vitamin D",
     "dose": "1,000 IU D3 + 200 mcg K2 per drop",
-    "image": "https://m.media-amazon.com/images/P/B0038NF8MG.01._SL500_.jpg",
+    "image": "/products/thorne-vitamin-d-k2.jpg",
     "amazon": true,
     "direct": false
   },
@@ -78,14 +93,16 @@
     "id": "life-extension-d-k-iodine",
     "name": "Life Extension Vitamins D and K with Sea-Iodine",
     "brand": "Life Extension",
-    "conditions": ["hashimotos"],
+    "conditions": [
+      "hashimotos"
+    ],
     "rating": 4.5,
     "affiliateSlug": "life-extension-d-k-iodine",
     "price": "$16.00",
     "verdict": "Convenient high-dose D/K combo — note it contains 1,000 mcg iodine which is unsuitable for most Hashimoto's patients; only use if your doctor confirmed low iodine.",
     "bestFor": "D/K support (confirmed low-iodine cases only)",
     "dose": "5,000 IU D3 + K1/K2 + 1,000 mcg iodine",
-    "image": "https://m.media-amazon.com/images/P/B076DBV1MG.01._SL500_.jpg",
+    "image": "/products/life-extension-d-k-iodine.jpg",
     "amazon": true,
     "direct": false
   },
@@ -93,14 +110,18 @@
     "id": "pure-encapsulations-magnesium",
     "name": "Pure Encapsulations Magnesium Glycinate",
     "brand": "Pure Encapsulations",
-    "conditions": ["hashimotos", "fibromyalgia-chronic-fatigue", "histamine-mcas"],
+    "conditions": [
+      "hashimotos",
+      "fibromyalgia-chronic-fatigue",
+      "histamine-mcas"
+    ],
     "rating": 4.6,
     "affiliateSlug": "pure-encapsulations-magnesium",
     "price": "$32.00",
     "verdict": "The cleanest, best-tolerated magnesium glycinate available — 4.6★ from 2,700+ verified reviews, named best overall by multiple expert roundups.",
     "bestFor": "Sleep, muscle tension & calm",
     "dose": "120 mg elemental per capsule",
-    "image": "https://m.media-amazon.com/images/P/B0058HWV9S.01._SL500_.jpg",
+    "image": "/products/pure-encapsulations-magnesium.jpg",
     "amazon": true,
     "direct": false
   },
@@ -108,14 +129,17 @@
     "id": "thorne-zinc",
     "name": "Thorne Zinc Picolinate",
     "brand": "Thorne",
-    "conditions": ["hashimotos", "eczema-psoriasis"],
+    "conditions": [
+      "hashimotos",
+      "eczema-psoriasis"
+    ],
     "rating": 4.7,
     "affiliateSlug": "thorne-zinc",
     "price": "$13.00",
     "verdict": "Picolinate is the best-absorbed zinc form — a required cofactor for T4→T3 conversion and skin barrier repair, from a third-party certified brand.",
     "bestFor": "T4→T3 conversion & skin repair",
     "dose": "30 mg",
-    "image": "https://m.media-amazon.com/images/P/B0012ZQPKG.01._SL500_.jpg",
+    "image": "/products/thorne-zinc.jpg",
     "amazon": true,
     "direct": false
   },
@@ -123,14 +147,16 @@
     "id": "thorne-iron",
     "name": "Thorne Iron Bisglycinate",
     "brand": "Thorne",
-    "conditions": ["hashimotos"],
+    "conditions": [
+      "hashimotos"
+    ],
     "rating": 4.6,
     "affiliateSlug": "thorne-iron",
     "price": "$13.00",
     "verdict": "Bisglycinate (Ferrochel) corrects low ferritin without the GI misery of ferrous sulfate — NSF Certified for Sport. Test ferritin before supplementing.",
     "bestFor": "Low ferritin & hair loss",
     "dose": "25 mg",
-    "image": "https://m.media-amazon.com/images/P/B0797GZDZL.01._SL500_.jpg",
+    "image": "/products/thorne-iron.jpg",
     "amazon": true,
     "direct": false
   },
@@ -138,14 +164,16 @@
     "id": "pure-encapsulations-b12",
     "name": "Pure Encapsulations Methylcobalamin B12",
     "brand": "Pure Encapsulations",
-    "conditions": ["hashimotos"],
+    "conditions": [
+      "hashimotos"
+    ],
     "rating": 4.7,
     "affiliateSlug": "pure-encapsulations-b12",
     "price": "$17.00",
     "verdict": "Active methylcobalamin B12 in the ready-to-use form — B12 deficiency frequently co-occurs with Hashimoto's and compounds fatigue and brain fog.",
     "bestFor": "Fatigue & brain fog from low B12",
     "dose": "1,000 mcg",
-    "image": "https://m.media-amazon.com/images/P/B0017L9N4A.01._SL500_.jpg",
+    "image": "/products/pure-encapsulations-b12.jpg",
     "amazon": true,
     "direct": false
   },
@@ -153,14 +181,16 @@
     "id": "visbiome-probiotic",
     "name": "Visbiome High Potency Probiotic",
     "brand": "Visbiome",
-    "conditions": ["gut-health"],
+    "conditions": [
+      "gut-health"
+    ],
     "rating": 4.4,
     "affiliateSlug": "visbiome-probiotic",
     "price": "$62.00",
     "verdict": "The original De Simone formulation with 100+ human clinical trials — the single most evidence-backed probiotic for ulcerative colitis remission maintenance.",
     "bestFor": "UC remission maintenance",
     "dose": "112.5 billion CFU",
-    "image": "https://m.media-amazon.com/images/P/B01D1Z57PI.01._SL500_.jpg",
+    "image": "/products/visbiome-probiotic.jpg",
     "amazon": true,
     "direct": false
   },
@@ -168,14 +198,17 @@
     "id": "seed-ds01",
     "name": "Seed DS-01 Daily Synbiotic",
     "brand": "Seed",
-    "conditions": ["gut-health", "eczema-psoriasis"],
+    "conditions": [
+      "gut-health",
+      "eczema-psoriasis"
+    ],
     "rating": 4.3,
     "affiliateSlug": "seed-ds01",
     "price": "$49.99",
     "verdict": "24-strain clinically studied synbiotic with a dedicated gut-skin dermatological blend — the best broad-spectrum daily probiotic for general maintenance.",
     "bestFor": "Daily microbiome & gut-skin support",
     "dose": "53.6 billion AFU (2 caps/day)",
-    "image": "https://m.media-amazon.com/images/P/B0CMJR4XGR.01._SL500_.jpg",
+    "image": "/products/seed-ds01.jpg",
     "amazon": true,
     "direct": false
   },
@@ -183,14 +216,16 @@
     "id": "thorne-l-glutamine",
     "name": "Thorne L-Glutamine Powder",
     "brand": "Thorne",
-    "conditions": ["gut-health"],
+    "conditions": [
+      "gut-health"
+    ],
     "rating": 4.7,
     "affiliateSlug": "thorne-l-glutamine",
     "price": "$26.00",
     "verdict": "NSF Certified for Sport — pure glutamine to fuel and repair the gut lining, from the most trusted practitioner brand with four rounds of third-party testing.",
     "bestFor": "Gut barrier repair",
     "dose": "5 g/scoop",
-    "image": "https://m.media-amazon.com/images/P/B000FGWDL8.01._SL500_.jpg",
+    "image": "/products/thorne-l-glutamine.jpg",
     "amazon": true,
     "direct": false
   },
@@ -198,14 +233,16 @@
     "id": "doctors-best-pepzin-gi",
     "name": "Doctor's Best PepZin GI (Zinc-L-Carnosine)",
     "brand": "Doctor's Best",
-    "conditions": ["gut-health"],
+    "conditions": [
+      "gut-health"
+    ],
     "rating": 4.5,
     "affiliateSlug": "doctors-best-pepzin-gi",
     "price": "$20.00",
     "verdict": "Uses the clinically studied PepZin GI raw material developed in Japan — the benchmark zinc-carnosine complex for stomach and gut lining repair.",
     "bestFor": "Stomach & gut lining integrity",
     "dose": "75 mg (zinc-carnosine complex)",
-    "image": "https://m.media-amazon.com/images/P/B0035BYOSA.01._SL500_.jpg",
+    "image": "/products/doctors-best-pepzin-gi.jpg",
     "amazon": true,
     "direct": false
   },
@@ -213,14 +250,16 @@
     "id": "florastor-s-boulardii",
     "name": "Florastor Daily Probiotic (S. boulardii)",
     "brand": "Florastor",
-    "conditions": ["gut-health"],
+    "conditions": [
+      "gut-health"
+    ],
     "rating": 4.5,
     "affiliateSlug": "florastor-s-boulardii",
     "price": "$28.00",
     "verdict": "The most-studied S. boulardii strain (CNCM I-745) — a beneficial yeast that works even alongside antibiotics, with strong RCT evidence for diarrhea.",
     "bestFor": "Antibiotic-associated diarrhea",
     "dose": "250 mg / 2 caps",
-    "image": "https://m.media-amazon.com/images/P/B01N4E0LVB.01._SL500_.jpg",
+    "image": "/products/florastor-s-boulardii.jpg",
     "amazon": true,
     "direct": false
   },
@@ -228,14 +267,16 @@
     "id": "pure-encapsulations-digestive-enzymes",
     "name": "Pure Encapsulations Digestive Enzymes Ultra",
     "brand": "Pure Encapsulations",
-    "conditions": ["gut-health"],
+    "conditions": [
+      "gut-health"
+    ],
     "rating": 4.6,
     "affiliateSlug": "pure-encapsulations-digestive-enzymes",
     "price": "$50.00",
     "verdict": "Broad-spectrum plant-based enzyme blend from a hypoallergenic practitioner brand — reliably reduces post-meal bloating when gut inflammation impairs digestion.",
     "bestFor": "Bloating & maldigestion",
     "dose": "1–2 caps with meals",
-    "image": "https://m.media-amazon.com/images/P/B0016X8Y0S.01._SL500_.jpg",
+    "image": "/products/pure-encapsulations-digestive-enzymes.jpg",
     "amazon": true,
     "direct": false
   },
@@ -243,14 +284,16 @@
     "id": "pure-encapsulations-dgl-plus",
     "name": "Pure Encapsulations DGL Plus",
     "brand": "Pure Encapsulations",
-    "conditions": ["gut-health"],
+    "conditions": [
+      "gut-health"
+    ],
     "rating": 4.4,
     "affiliateSlug": "pure-encapsulations-dgl-plus",
     "price": "$34.00",
     "verdict": "Combines DGL, marshmallow root, slippery elm, and aloe vera in one capsule — the most complete demulcent formula for gut lining and reflux. 4.4★ from 1,300+ reviews.",
     "bestFor": "Gut lining soothing & reflux",
     "dose": "1 cap before meals",
-    "image": "https://m.media-amazon.com/images/P/B00062IF54.01._SL500_.jpg",
+    "image": "/products/pure-encapsulations-dgl-plus.jpg",
     "amazon": true,
     "direct": false
   },
@@ -258,14 +301,16 @@
     "id": "bodybio-butyrate",
     "name": "BodyBio Butyrate (Sodium + Potassium)",
     "brand": "BodyBio",
-    "conditions": ["gut-health"],
+    "conditions": [
+      "gut-health"
+    ],
     "rating": 4.4,
     "affiliateSlug": "bodybio-butyrate",
     "price": "$27.00",
     "verdict": "A direct source of butyrate — the colon's primary fuel — when a damaged microbiome isn't making enough. No fillers, strong community following.",
     "bestFor": "Colonic barrier & leaky gut",
     "dose": "500 mg/cap",
-    "image": "https://m.media-amazon.com/images/P/B0058A9SF0.01._SL500_.jpg",
+    "image": "/products/bodybio-butyrate.jpg",
     "amazon": true,
     "direct": false
   },
@@ -273,14 +318,16 @@
     "id": "pendulum-akkermansia",
     "name": "Pendulum Akkermansia Probiotic",
     "brand": "Pendulum",
-    "conditions": ["gut-health"],
+    "conditions": [
+      "gut-health"
+    ],
     "rating": 4.7,
     "affiliateSlug": "pendulum-akkermansia",
     "price": "$57.00",
     "verdict": "The only widely available consumer source of A. muciniphila — a keystone gut-lining bacterium. Rated 4.7★ from 430+ reviews. Emerging but promising.",
     "bestFor": "Gut lining & mucin layer support",
     "dose": "100M AFU",
-    "image": "https://m.media-amazon.com/images/P/B0B3GF96C3.01._SL500_.jpg",
+    "image": "/products/pendulum-akkermansia.jpg",
     "amazon": true,
     "direct": false
   },
@@ -288,14 +335,16 @@
     "id": "thorne-curcumin-phytosome",
     "name": "Thorne Curcumin Phytosome (Meriva)",
     "brand": "Thorne",
-    "conditions": ["eczema-psoriasis"],
+    "conditions": [
+      "eczema-psoriasis"
+    ],
     "rating": 4.6,
     "affiliateSlug": "thorne-curcumin-phytosome",
     "price": "$42.00",
     "verdict": "Meriva phytosome delivers ~29x better curcumin absorption than standard extracts — a well-evidenced anti-inflammatory botanical for systemic skin and immune support.",
     "bestFor": "Inflammatory response modulation",
     "dose": "1,000 mg Meriva (2 caps)",
-    "image": "https://m.media-amazon.com/images/P/B00BXZK2JI.01._SL500_.jpg",
+    "image": "/products/thorne-curcumin-phytosome.jpg",
     "amazon": true,
     "direct": false
   },
@@ -303,14 +352,16 @@
     "id": "nordic-cod-liver-oil",
     "name": "Nordic Naturals Arctic Cod Liver Oil",
     "brand": "Nordic Naturals",
-    "conditions": ["eczema-psoriasis"],
+    "conditions": [
+      "eczema-psoriasis"
+    ],
     "rating": 4.7,
     "affiliateSlug": "nordic-cod-liver-oil",
     "price": "$30.00",
     "verdict": "Delivers naturally occurring vitamins A and D alongside EPA/DHA in whole-food form — vitamin A is essential for skin cell turnover and barrier function.",
     "bestFor": "Vitamin A + D + omega-3 in one",
     "dose": "1–2 softgels/day",
-    "image": "https://m.media-amazon.com/images/P/B002CQU4TW.01._SL500_.jpg",
+    "image": "/products/nordic-cod-liver-oil.jpg",
     "amazon": true,
     "direct": false
   },
@@ -318,14 +369,17 @@
     "id": "vital-proteins-collagen",
     "name": "Vital Proteins Collagen Peptides",
     "brand": "Vital Proteins",
-    "conditions": ["eczema-psoriasis", "gut-health"],
+    "conditions": [
+      "eczema-psoriasis",
+      "gut-health"
+    ],
     "rating": 4.7,
     "affiliateSlug": "vital-proteins-collagen",
     "price": "$30.00",
     "verdict": "The most widely used, reliably sourced grass-fed collagen on Amazon — provides building blocks for skin structure and gut lining repair in one unflavored scoop.",
     "bestFor": "Skin structure & gut barrier support",
     "dose": "20 g (2 scoops)",
-    "image": "https://m.media-amazon.com/images/P/B00ZRJBF0Y.01._SL500_.jpg",
+    "image": "/products/vital-proteins-collagen.jpg",
     "amazon": true,
     "direct": false
   },
@@ -333,14 +387,16 @@
     "id": "cerave-eczema-cream",
     "name": "CeraVe Eczema Relief Moisturizing Cream",
     "brand": "CeraVe",
-    "conditions": ["eczema-psoriasis"],
+    "conditions": [
+      "eczema-psoriasis"
+    ],
     "rating": 4.7,
     "affiliateSlug": "cerave-eczema-cream",
     "price": "$15.00",
     "verdict": "1% colloidal oatmeal + 3 essential ceramides — the best-evidenced topical combo for restoring the eczema-impaired skin barrier. National Eczema Association seal.",
     "bestFor": "Daily barrier repair on active eczema",
     "dose": "Apply to affected areas as needed",
-    "image": "https://m.media-amazon.com/images/P/B07HH1WNSD.01._SL500_.jpg",
+    "image": "/products/cerave-eczema-cream.jpg",
     "amazon": true,
     "direct": false
   },
@@ -348,14 +404,16 @@
     "id": "thorne-coq10",
     "name": "Thorne CoQ10",
     "brand": "Thorne",
-    "conditions": ["fibromyalgia-chronic-fatigue"],
+    "conditions": [
+      "fibromyalgia-chronic-fatigue"
+    ],
     "rating": 4.6,
     "affiliateSlug": "thorne-coq10",
     "price": "$39.00",
     "verdict": "Pharmaceutical-grade CoQ10 in a solubilized crystal-free base — the category with the strongest fibromyalgia evidence. Rated 4.6★ from 700+ reviews.",
     "bestFor": "Mitochondrial energy & fibro pain",
     "dose": "100 mg",
-    "image": "https://m.media-amazon.com/images/P/B005ZFWHMO.01._SL500_.jpg",
+    "image": "/products/thorne-coq10.jpg",
     "amazon": true,
     "direct": false
   },
@@ -363,14 +421,16 @@
     "id": "qunol-coq10",
     "name": "Qunol Ultra CoQ10",
     "brand": "Qunol",
-    "conditions": ["fibromyalgia-chronic-fatigue"],
+    "conditions": [
+      "fibromyalgia-chronic-fatigue"
+    ],
     "rating": 4.7,
     "affiliateSlug": "qunol-coq10",
     "price": "$35.00",
     "verdict": "Patented water and fat-soluble CoQ10 — the most-reviewed CoQ10 on Amazon (~45,000 ratings) and a strong value pick at ~$0.29/day for a 4-month supply.",
     "bestFor": "Budget-friendly daily energy support",
     "dose": "100 mg",
-    "image": "https://m.media-amazon.com/images/P/B0055OUOQQ.01._SL500_.jpg",
+    "image": "/products/qunol-coq10.jpg",
     "amazon": true,
     "direct": false
   },
@@ -378,14 +438,16 @@
     "id": "source-naturals-magnesium-malate",
     "name": "Source Naturals Magnesium Malate",
     "brand": "Source Naturals",
-    "conditions": ["fibromyalgia-chronic-fatigue"],
+    "conditions": [
+      "fibromyalgia-chronic-fatigue"
+    ],
     "rating": 4.5,
     "affiliateSlug": "source-naturals-magnesium-malate",
     "price": "$25.00",
     "verdict": "The magnesium-malate pairing used in fibromyalgia studies — malic acid is directly involved in cellular energy production, and this delivers it at a low cost per dose.",
     "bestFor": "Fibro pain via the studied Mg+malate combo",
     "dose": "625 mg elemental Mg per serving",
-    "image": "https://m.media-amazon.com/images/P/B000GFJJKQ.01._SL500_.jpg",
+    "image": "/products/source-naturals-magnesium-malate.jpg",
     "amazon": true,
     "direct": false
   },
@@ -393,14 +455,16 @@
     "id": "doctors-best-alcar",
     "name": "Doctor's Best Acetyl-L-Carnitine (ALCAR)",
     "brand": "Doctor's Best",
-    "conditions": ["fibromyalgia-chronic-fatigue"],
+    "conditions": [
+      "fibromyalgia-chronic-fatigue"
+    ],
     "rating": 4.5,
     "affiliateSlug": "doctors-best-alcar",
     "price": "$24.00",
     "verdict": "ALCAR has randomized-trial support for reducing fibromyalgia pain and improving CFS mental fatigue — Doctor's Best delivers it at a fair price with clean labeling.",
     "bestFor": "Mental fatigue, brain fog & pain",
     "dose": "500 mg/cap",
-    "image": "https://m.media-amazon.com/images/P/B000I4DF96.01._SL500_.jpg",
+    "image": "/products/doctors-best-alcar.jpg",
     "amazon": true,
     "direct": false
   },
@@ -408,14 +472,16 @@
     "id": "jarrow-d-ribose",
     "name": "Jarrow Formulas D-Ribose Powder",
     "brand": "Jarrow Formulas",
-    "conditions": ["fibromyalgia-chronic-fatigue"],
+    "conditions": [
+      "fibromyalgia-chronic-fatigue"
+    ],
     "rating": 4.5,
     "affiliateSlug": "jarrow-d-ribose",
     "price": "$38.00",
     "verdict": "D-ribose is the direct ATP building block. An open-label study of 257 CFS/fibro patients reported ~61% average energy improvement — Jarrow is the most trusted pure powder.",
     "bestFor": "Post-exertional energy crashes",
     "dose": "2–5 g/scoop",
-    "image": "https://m.media-amazon.com/images/P/B0013OQHA4.01._SL500_.jpg",
+    "image": "/products/jarrow-d-ribose.jpg",
     "amazon": true,
     "direct": false
   },
@@ -423,14 +489,16 @@
     "id": "thorne-b-complex",
     "name": "Thorne Basic B Complex",
     "brand": "Thorne",
-    "conditions": ["fibromyalgia-chronic-fatigue"],
+    "conditions": [
+      "fibromyalgia-chronic-fatigue"
+    ],
     "rating": 4.7,
     "affiliateSlug": "thorne-b-complex",
     "price": "$25.00",
     "verdict": "Fully methylated/active B vitamins — methylfolate, methylcobalamin, P5P, riboflavin-5-phosphate — usable even by those with methylation variants.",
     "bestFor": "Cellular energy & methylation support",
     "dose": "1 cap/day",
-    "image": "https://m.media-amazon.com/images/P/B00HST919C.01._SL500_.jpg",
+    "image": "/products/thorne-b-complex.jpg",
     "amazon": true,
     "direct": false
   },
@@ -438,14 +506,16 @@
     "id": "doctors-best-same",
     "name": "Doctor's Best SAMe 400 mg",
     "brand": "Doctor's Best",
-    "conditions": ["fibromyalgia-chronic-fatigue"],
+    "conditions": [
+      "fibromyalgia-chronic-fatigue"
+    ],
     "rating": 4.4,
     "affiliateSlug": "doctors-best-same",
     "price": "$36.00",
     "verdict": "SAMe is one of the better-evidenced fibromyalgia supplements with trials showing improvements in pain, morning stiffness, and mood — enteric-coated for absorption.",
     "bestFor": "Co-occurring low mood + fibro pain",
     "dose": "400 mg (enteric-coated)",
-    "image": "https://m.media-amazon.com/images/P/B004YLAXOE.01._SL500_.jpg",
+    "image": "/products/doctors-best-same.jpg",
     "amazon": true,
     "direct": false
   },
@@ -453,14 +523,16 @@
     "id": "seeking-health-dao-enzyme",
     "name": "Seeking Health DAO Enzyme (Histamine Digest)",
     "brand": "Seeking Health",
-    "conditions": ["histamine-mcas"],
+    "conditions": [
+      "histamine-mcas"
+    ],
     "rating": 4.6,
     "affiliateSlug": "seeking-health-dao-enzyme",
     "price": "$45.00",
     "verdict": "The single most targeted product for histamine intolerance — supplements the exact enzyme (DAO) that breaks down dietary histamine in the gut. Take before meals.",
     "bestFor": "Food-triggered histamine reactions",
     "dose": "10,000 HDU / 1–2 caps pre-meal",
-    "image": "https://m.media-amazon.com/images/P/B00EOBH8KG.01._SL500_.jpg",
+    "image": "/products/seeking-health-dao-enzyme.jpg",
     "amazon": true,
     "direct": false
   },
@@ -468,14 +540,16 @@
     "id": "seeking-health-probiota-histaminx",
     "name": "Seeking Health ProBiota HistaminX",
     "brand": "Seeking Health",
-    "conditions": ["histamine-mcas"],
+    "conditions": [
+      "histamine-mcas"
+    ],
     "rating": 4.7,
     "affiliateSlug": "seeking-health-probiota-histaminx",
     "price": "$40.00",
     "verdict": "Purpose-built MCAS probiotic using only histamine-neutral/degrading strains (B. infantis, B. longum, L. rhamnosus, L. plantarum) — the safest choice in this category.",
     "bestFor": "Histamine-safe gut microbiome",
     "dose": "10 billion CFU / 1 cap/day",
-    "image": "https://m.media-amazon.com/images/P/B0773SY1X2.01._SL500_.jpg",
+    "image": "/products/seeking-health-probiota-histaminx.jpg",
     "amazon": true,
     "direct": false
   },
@@ -483,14 +557,17 @@
     "id": "thorne-quercetin-phytosome",
     "name": "Thorne Quercetin Phytosome",
     "brand": "Thorne",
-    "conditions": ["histamine-mcas", "eczema-psoriasis"],
+    "conditions": [
+      "histamine-mcas",
+      "eczema-psoriasis"
+    ],
     "rating": 4.7,
     "affiliateSlug": "thorne-quercetin-phytosome",
     "price": "$44.00",
     "verdict": "Quercetin-phospholipid phytosome with ~20x better absorption than standard quercetin — the best mast cell stabilizer available, from a third-party certified brand.",
     "bestFor": "Mast cell stabilization & histamine reactivity",
     "dose": "250 mg phytosome (2 caps)",
-    "image": "https://m.media-amazon.com/images/P/B0797DQTVZ.01._SL500_.jpg",
+    "image": "/products/thorne-quercetin-phytosome.jpg",
     "amazon": true,
     "direct": false
   },
@@ -498,14 +575,16 @@
     "id": "pure-encapsulations-buffered-vitamin-c",
     "name": "Pure Encapsulations Buffered Ascorbic Acid",
     "brand": "Pure Encapsulations",
-    "conditions": ["histamine-mcas"],
+    "conditions": [
+      "histamine-mcas"
+    ],
     "rating": 4.6,
     "affiliateSlug": "pure-encapsulations-buffered-vitamin-c",
     "price": "$26.00",
     "verdict": "Buffered mineral ascorbates are far gentler on sensitive MCAS guts than plain ascorbic acid — vitamin C helps degrade histamine and supports DAO activity.",
     "bestFor": "Histamine degradation (acid-sensitive)",
     "dose": "670 mg/cap",
-    "image": "https://m.media-amazon.com/images/P/B07FYVWLXC.01._SL500_.jpg",
+    "image": "/products/pure-encapsulations-buffered-vitamin-c.jpg",
     "amazon": true,
     "direct": false
   },
@@ -513,14 +592,16 @@
     "id": "seeking-health-p5p",
     "name": "Seeking Health P-5-P (Active B6)",
     "brand": "Seeking Health",
-    "conditions": ["histamine-mcas"],
+    "conditions": [
+      "histamine-mcas"
+    ],
     "rating": 4.5,
     "affiliateSlug": "seeking-health-p5p",
     "price": "$20.00",
     "verdict": "P5P is the active ready-to-use form of B6 — an essential cofactor DAO needs to break down histamine, directly supporting your body's own clearance system.",
     "bestFor": "DAO cofactor support",
     "dose": "25 mg P5P",
-    "image": "https://m.media-amazon.com/images/P/B00XO756X2.01._SL500_.jpg",
+    "image": "/products/seeking-health-p5p.jpg",
     "amazon": true,
     "direct": false
   },
@@ -528,14 +609,16 @@
     "id": "life-extension-pea",
     "name": "Life Extension PEA Discomfort Relief",
     "brand": "Life Extension",
-    "conditions": ["histamine-mcas"],
+    "conditions": [
+      "histamine-mcas"
+    ],
     "rating": 4.4,
     "affiliateSlug": "life-extension-pea",
     "price": "$33.00",
     "verdict": "Palmitoylethanolamide (PEA) modulates mast cells via PPAR-α — one of the better-studied agents for calming mast-cell-driven inflammation and nerve discomfort.",
     "bestFor": "Mast cell pain & systemic inflammation",
     "dose": "600 mg/chewable tablet",
-    "image": "https://m.media-amazon.com/images/P/B07N16QJS7.01._SL500_.jpg",
+    "image": "/products/life-extension-pea.jpg",
     "amazon": true,
     "direct": false
   },
@@ -543,14 +626,16 @@
     "id": "life-extension-optimized-quercetin",
     "name": "Life Extension Optimized Quercetin",
     "brand": "Life Extension",
-    "conditions": ["histamine-mcas"],
+    "conditions": [
+      "histamine-mcas"
+    ],
     "rating": 4.4,
     "affiliateSlug": "life-extension-optimized-quercetin",
     "price": "$18.00",
     "verdict": "Budget-friendly quercetin with vitamin C synergy — a strong value alternative when cost matters more than the phytosome absorption upgrade.",
     "bestFor": "Value-focused quercetin + C combo",
     "dose": "250 mg quercetin + vitamin C blend",
-    "image": "https://m.media-amazon.com/images/P/B0020XW68O.01._SL500_.jpg",
+    "image": "/products/life-extension-optimized-quercetin.jpg",
     "amazon": true,
     "direct": false
   },
@@ -558,14 +643,16 @@
     "id": "now-stinging-nettle",
     "name": "NOW Stinging Nettle Root Extract",
     "brand": "NOW Foods",
-    "conditions": ["histamine-mcas"],
+    "conditions": [
+      "histamine-mcas"
+    ],
     "rating": 4.5,
     "affiliateSlug": "now-stinging-nettle",
     "price": "$13.00",
     "verdict": "GMP-certified stinging nettle from one of the most trusted budget brands — traditional antihistamine/anti-inflammatory add-on at an unbeatable price point.",
     "bestFor": "Affordable histamine symptom support",
     "dose": "250 mg extract/cap",
-    "image": "https://m.media-amazon.com/images/P/B0014UECK4.01._SL500_.jpg",
+    "image": "/products/now-stinging-nettle.jpg",
     "amazon": true,
     "direct": false
   }

@@ -8,7 +8,6 @@ import { getCondition, getReviews } from '@/lib/data';
 
 export default function ProductCard({ product }: { product: Product }) {
   const reviewSlug = getReviews().find((r) => r.productId === product.id)?.slug;
-  const isExternal = product.image.startsWith('http');
   return (
     <div className="flex h-full flex-col rounded-card border border-border bg-surface p-5 shadow-sm transition hover:shadow-md">
       <div className="relative mb-4 aspect-square overflow-hidden rounded-btn bg-surface-warm">
@@ -18,7 +17,6 @@ export default function ProductCard({ product }: { product: Product }) {
           fill
           sizes="(max-width: 768px) 50vw, 240px"
           className="object-contain p-2"
-          unoptimized={isExternal}
         />
       </div>
       <div className="mb-2 flex flex-wrap gap-1.5">

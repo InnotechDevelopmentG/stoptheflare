@@ -5,11 +5,10 @@ import StarRating from '@/components/shared/StarRating';
 import { goLink, AFFILIATE_REL, AFFILIATE_TITLE } from '@/lib/affiliates';
 
 export default function ProductBuyBox({ product }: { product: Product }) {
-  const isExternal = product.image.startsWith('http');
   return (
     <div className="rounded-card border border-border bg-surface p-6 shadow-sm lg:sticky lg:top-28">
       <div className="relative mx-auto mb-4 aspect-square w-40 overflow-hidden rounded-btn bg-surface-warm">
-        <Image src={product.image} alt={product.name} fill sizes="160px" className="object-contain p-2" unoptimized={isExternal} />
+        <Image src={product.image} alt={product.name} fill sizes="160px" className="object-contain p-2" />
       </div>
       <h3 className="text-center font-serif text-lg font-medium">{product.name}</h3>
       <p className="mb-3 text-center text-small text-text-muted">{product.brand}</p>
