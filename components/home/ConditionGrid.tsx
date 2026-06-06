@@ -1,8 +1,18 @@
-import Link from 'next/link';
+'use client';
+
+import { useState } from 'react';
 import { getConditions } from '@/lib/data';
+import EmailCaptureModal from '@/components/shared/EmailCaptureModal';
+
+interface ModalState {
+  slug: string;
+  name: string;
+}
 
 export default function ConditionGrid() {
   const conditions = getConditions();
+  const [modal, setModal] = useState<ModalState | null>(null);
+
   return (
     <section id="conditions" className="scroll-mt-24 bg-background py-20">
       <div className="mx-auto max-w-content px-4 sm:px-6">
@@ -16,10 +26,10 @@ export default function ConditionGrid() {
 
         <div className="mx-auto mt-12 grid max-w-5xl gap-6 md:grid-cols-2 lg:grid-cols-3">
           {conditions.map((c) => (
-            <Link
+            <button
               key={c.slug}
-              href={`/${c.slug}`}
-              className="group flex flex-col rounded-card border border-transparent border-t-4 border-t-transparent bg-surface-warm p-6 shadow-sm transition hover:-translate-y-1 hover:border-t-primary hover:shadow-md"
+              onClick={() => setModal({ slug: c.slug, name: c.name })}
+              className="group flex w-full flex-col rounded-card border border-transparent border-t-4 border-t-transparent bg-surface-warm p-6 text-left shadow-sm transition hover:-translate-y-1 hover:border-t-primary hover:shadow-md"
             >
               <span
                 aria-hidden="true"
@@ -32,9 +42,7 @@ export default function ConditionGrid() {
               <ul className="mt-4 space-y-1.5 text-small text-text-secondary">
                 {c.homeBullets.map((b) => (
                   <li key={b} className="flex gap-2">
-                    <span aria-hidden="true" className="text-primary-light">
-                      •
-                    </span>
+                    <span aria-hidden="true" className="text-primary-light">•</span>
                     {b}
                   </li>
                 ))}
@@ -42,10 +50,18 @@ export default function ConditionGrid() {
               <span className="mt-5 font-medium text-primary group-hover:underline">
                 See the Guide →
               </span>
-            </Link>
+            </button>
           ))}
         </div>
       </div>
+
+      {modal && (
+        <EmailCaptureModal
+          conditionSlug={modal.slug}
+          conditionName={modal.name}
+          onClose={() => setModal(null)}
+        />
+      )}
     </section>
   );
 }
