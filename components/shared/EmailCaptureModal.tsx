@@ -59,11 +59,11 @@ export default function EmailCaptureModal({ conditionSlug, conditionName, onClos
           Get the {conditionName} guide
         </h2>
         <p className="mt-2 text-text-secondary">
-          Enter your email and we'll send you the full guide plus research-backed follow-up tips — no sponsored content, ever.
+          Enter your email and we&apos;ll send you the full guide plus research-backed follow-up tips — no sponsored content, ever.
         </p>
 
         {status === 'done' ? (
-          <p className="mt-6 font-medium text-primary">You're in! Taking you to the guide…</p>
+          <p className="mt-6 font-medium text-primary">You&apos;re in! Taking you to the guide…</p>
         ) : (
           <form onSubmit={submit} className="mt-6 space-y-3">
             <input
