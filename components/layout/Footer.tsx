@@ -24,23 +24,23 @@ export default function Footer() {
           <ul className="space-y-2 text-small">
             {conditions.map((c) => (
               <li key={c.slug}>
-                <Link href={`/${c.slug}`} className="text-text-secondary hover:text-primary">
+                <Link href={`/${c.slug}`} className="inline-block py-1.5 text-text-secondary hover:text-primary">
                   {c.name}
                 </Link>
               </li>
             ))}
             <li>
-              <Link href="/reviews" className="text-text-secondary hover:text-primary">
+              <Link href="/reviews" className="inline-block py-1.5 text-text-secondary hover:text-primary">
                 Reviews
               </Link>
             </li>
             <li>
-              <Link href="/start-here" className="text-text-secondary hover:text-primary">
+              <Link href="/start-here" className="inline-block py-1.5 text-text-secondary hover:text-primary">
                 Start Here
               </Link>
             </li>
             <li>
-              <Link href="/about" className="text-text-secondary hover:text-primary">
+              <Link href="/about" className="inline-block py-1.5 text-text-secondary hover:text-primary">
                 About
               </Link>
             </li>
@@ -57,17 +57,17 @@ export default function Footer() {
           <NewsletterForm formId="global" buttonLabel="Subscribe" />
           <ul className="mt-5 space-y-2 text-small">
             <li>
-              <Link href="/disclaimer" className="text-text-secondary hover:text-primary">
+              <Link href="/disclaimer" className="inline-block py-1.5 text-text-secondary hover:text-primary">
                 Medical Disclaimer
               </Link>
             </li>
             <li>
-              <Link href="/privacy" className="text-text-secondary hover:text-primary">
+              <Link href="/privacy" className="inline-block py-1.5 text-text-secondary hover:text-primary">
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link href="/affiliate-disclosure" className="text-text-secondary hover:text-primary">
+              <Link href="/affiliate-disclosure" className="inline-block py-1.5 text-text-secondary hover:text-primary">
                 Affiliate Disclosure
               </Link>
             </li>
@@ -77,7 +77,7 @@ export default function Footer() {
 
       <div className="border-t border-border">
         <p className="mx-auto max-w-content px-4 py-6 text-center text-caption text-text-muted sm:px-6">
-          © 2025 StopTheFlare.com — Independent health research. Not medical advice.
+          © 2026 StopTheFlare.com — Independent health research. Not medical advice.
         </p>
       </div>
     </footer>
