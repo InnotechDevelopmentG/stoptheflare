@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     template: '%s | StopTheFlare',
   },
   description:
-    'The most trusted independent source for people managing autoimmune conditions. No brand sponsorships — just honest, research-backed supplement and product guidance.',
+    'The trusted independent source for people managing autoimmune conditions. No brand sponsorships — just honest, research-backed supplement and product guidance.',
   metadataBase: new URL('https://stoptheflare.com'),
   alternates: {
     canonical: 'https://stoptheflare.com',

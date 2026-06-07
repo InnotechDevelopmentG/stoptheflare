@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getConditions, getProductsByCondition, products } from '@/lib/data';
-import { canonical } from '@/lib/seo';
+import { canonical, breadcrumbSchema, jsonLd } from '@/lib/seo';
 import ProductCard from '@/components/shared/ProductCard';
 
 export const metadata: Metadata = {
@@ -19,8 +19,29 @@ export default function ReviewsIndex({
   const active = searchParams.condition;
   const list = active ? getProductsByCondition(active) : products;
 
+  const schemas = [
+    breadcrumbSchema([
+      { name: 'Home', path: '/' },
+      { name: 'Reviews', path: '/reviews' },
+    ]),
+    {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: 'Supplement Reviews',
+      itemListElement: products.map((p, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: p.name,
+      })),
+    },
+  ];
+
   return (
     <div className="bg-background">
+      {schemas.map((s, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={jsonLd(s)} />
+      ))}
+
       <section className="bg-primary py-16 text-white">
         <div className="mx-auto max-w-content px-4 sm:px-6">
           <h1 className="font-serif text-4xl font-semibold md:text-5xl">Supplement Reviews</h1>
