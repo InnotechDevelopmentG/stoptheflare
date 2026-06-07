@@ -4,6 +4,7 @@ import './globals.css';
 import { Analytics } from '@vercel/analytics/next';
 import Navigation from '@/components/layout/Navigation';
 import Footer from '@/components/layout/Footer';
+import { organizationSchema, websiteSchema, jsonLd } from '@/lib/seo';
 
 const lora = Lora({
   subsets: ['latin'],
@@ -67,6 +68,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${lora.variable} ${dmSans.variable} ${dmMono.variable}`}>
+      <head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(organizationSchema())} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(websiteSchema())} />
+      </head>
       <body className="bg-background text-text-primary font-sans">
         <Navigation />
         <main>{children}</main>
