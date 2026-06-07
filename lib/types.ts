@@ -64,7 +64,9 @@ export interface BlogPost {
   conditionSlug: string;
   readTime: string;
   date: string;
+  /** Plain strings = <p>. Prefix with "## " for <h2>, "### " for <h3>. */
   body: string[];
+  faqs?: { q: string; a: string }[];
 }
 
 export interface Review {
