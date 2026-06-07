@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://stoptheflare.com';
+export const SITE_URL = 'https://www.stoptheflare.com';
 export const SITE_NAME = 'StopTheFlare';
 
 export function canonical(path = ''): string {

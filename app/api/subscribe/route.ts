@@ -44,7 +44,7 @@ export async function POST(req: NextRequest) {
             Thanks for signing up. You'll receive research-backed tips and honest product guidance for
             <strong>${conditionLabel}</strong> — no sponsored content, ever.
           </p>
-          <a href="https://stoptheflare.com/${condition}"
+          <a href="https://www.stoptheflare.com/${condition}"
             style="display:inline-block;background:#2C5F2E;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:600;margin-bottom:24px">
             Read the ${conditionLabel} Guide →
           </a>

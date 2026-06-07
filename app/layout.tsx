@@ -41,15 +41,15 @@ export const metadata: Metadata = {
   },
   description:
     'The trusted independent source for people managing autoimmune conditions. No brand sponsorships — just honest, research-backed supplement and product guidance.',
-  metadataBase: new URL('https://stoptheflare.com'),
+  metadataBase: new URL('https://www.stoptheflare.com'),
   alternates: {
-    canonical: 'https://stoptheflare.com',
+    canonical: 'https://www.stoptheflare.com',
   },
   openGraph: {
     title: 'StopTheFlare — Honest autoimmune supplement guides',
     description:
       'No sponsored reviews. No miracle cures. Just real research on supplements and protocols that actually help.',
-    url: 'https://stoptheflare.com',
+    url: 'https://www.stoptheflare.com',
     siteName: 'StopTheFlare',
     type: 'website',
     locale: 'en_US',

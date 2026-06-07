@@ -8,7 +8,7 @@
  * deploys. Can also be run manually: `npm run indexnow`.
  */
 
-const HOST = 'stoptheflare.com';
+const HOST = 'www.stoptheflare.com';
 const KEY = '93a229d1c0bb3359bb4915c9a880f4c6';
 const SITEMAP_URL = `https://${HOST}/sitemap.xml`;
 const ENDPOINT = 'https://api.indexnow.org/indexnow';
