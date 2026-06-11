@@ -86,29 +86,53 @@ CONTENT REQUIREMENTS:
 - Internal links build topical authority. Where natural, link to relevant pages using markdown [label](path). ONLY use these exact internal paths: ${INTERNAL_LINKS.join(', ')}. Always link to /${pillar.slug} at least once. Do NOT invent any other links, and do NOT add external or affiliate links.
 - You may use **bold** for emphasis. Use curly apostrophes/quotes (\u2019 \u201C \u201D) and em dashes (\u2014).
 
-Return ONLY raw valid JSON (no markdown code fences) in EXACTLY this shape:
-{
-  "title": "SEO headline, 50\u201362 characters, includes the core keyword",
-  "seo_description": "Meta description, 150\u2013160 characters, keyword-rich and compelling",
-  "excerpt": "1\u20132 sentence summary for listing cards, ~140\u2013160 characters",
-  "read_time": "e.g. '9 min read'",
-  "body": ["## First H2", "A full paragraph...", "### An H3", "More paragraphs...", "..."],
-  "faqs": [{"q": "People-Also-Ask style question", "a": "Concise, accurate 2\u20134 sentence answer"}],
-  "tags": ["primary keyword", "3\u20136 more relevant search tags"]
-}
-Provide exactly 4 FAQs. Ensure the JSON is valid and parseable.`;
+Call the submit_article tool with the finished article. Provide exactly 4 FAQs.`;
 
   const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
   const message = await anthropic.messages.create({
     model: 'claude-opus-4-6',
-    max_tokens: 4000,
+    max_tokens: 8000,
+    tools: [
+      {
+        name: 'submit_article',
+        description: 'Submit the finished article in structured form.',
+        input_schema: {
+          type: 'object',
+          properties: {
+            title: { type: 'string', description: 'SEO headline, 50-62 chars, includes the core keyword' },
+            seo_description: { type: 'string', description: 'Meta description, 150-160 chars, keyword-rich' },
+            excerpt: { type: 'string', description: '1-2 sentence summary for listing cards, ~140-160 chars' },
+            read_time: { type: 'string', description: "e.g. '9 min read'" },
+            body: {
+              type: 'array',
+              items: { type: 'string' },
+              description: 'Article blocks. "## " = H2, "### " = H3, plain string = paragraph.',
+            },
+            faqs: {
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: { q: { type: 'string' }, a: { type: 'string' } },
+                required: ['q', 'a'],
+              },
+              description: 'Exactly 4 People-Also-Ask style Q&A pairs.',
+            },
+            tags: { type: 'array', items: { type: 'string' }, description: '4-7 relevant search tags' },
+          },
+          required: ['title', 'seo_description', 'excerpt', 'read_time', 'body', 'faqs', 'tags'],
+        },
+      },
+    ],
+    tool_choice: { type: 'tool', name: 'submit_article' },
     messages: [{ role: 'user', content: prompt }],
   });
 
-  const raw = (message.content[0] as { type: string; text: string }).text.trim();
-  const jsonStr = raw.replace(/^```json?\s*/i, '').replace(/\s*```$/, '').trim();
-  const parsed = JSON.parse(jsonStr) as Omit<GeneratedArticle, 'slug' | 'category' | 'condition_slug'>;
+  const toolUse = message.content.find((b) => b.type === 'tool_use');
+  if (!toolUse || toolUse.type !== 'tool_use') {
+    throw new Error('Generator did not return a tool_use block');
+  }
+  const parsed = toolUse.input as Omit<GeneratedArticle, 'slug' | 'category' | 'condition_slug'>;
 
   if (!parsed.title || !Array.isArray(parsed.body) || parsed.body.length === 0) {
     throw new Error('Generator returned malformed article');
