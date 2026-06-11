@@ -10,6 +10,7 @@ const navItems = [
   { label: 'Eczema & Skin', href: '/eczema-psoriasis' },
   { label: 'Fibromyalgia', href: '/fibromyalgia-chronic-fatigue' },
   { label: 'Histamine & MCAS', href: '/histamine-mcas' },
+  { label: 'Latest', href: '/latest' },
   { label: 'Reviews', href: '/reviews' },
 ];
 

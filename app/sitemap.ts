@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next';
 import { getConditions, getReviews, getBlogPosts } from '@/lib/data';
+import { listLatestArticles } from '@/lib/articles';
 import { SITE_URL } from '@/lib/seo';
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
   const conditions = getConditions();
 
@@ -11,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/start-here`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${SITE_URL}/reviews`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${SITE_URL}/latest`, lastModified: now, changeFrequency: 'daily', priority: 0.8 },
     { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${SITE_URL}/affiliate-disclosure`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${SITE_URL}/disclaimer`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
@@ -47,5 +49,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...pillarPages, ...clusterPages, ...reviewPages, ...blogPages];
+  const latestArticles = await listLatestArticles(1000);
+  const latestPages: MetadataRoute.Sitemap = latestArticles.map((a) => ({
+    url: `${SITE_URL}/latest/${a.slug}`,
+    lastModified: new Date(a.published_at),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...pillarPages, ...clusterPages, ...reviewPages, ...blogPages, ...latestPages];
 }
