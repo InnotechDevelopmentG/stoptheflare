@@ -135,26 +135,65 @@ Call the submit_article tool with the finished article. Provide exactly 4 FAQs.`
       `Generator did not return a tool_use block (stop_reason=${message.stop_reason}, blocks=[${types}])`,
     );
   }
-  const parsed = toolUse.input as Omit<GeneratedArticle, 'slug' | 'category' | 'condition_slug'>;
+  const parsed = toolUse.input as Record<string, unknown>;
+  const body = normalizeBody(parsed.body);
 
-  if (!parsed.title || !Array.isArray(parsed.body) || parsed.body.length === 0) {
+  if (!parsed.title || body.length === 0) {
     const keys = Object.keys(parsed ?? {}).join(',');
-    const bodyLen = Array.isArray(parsed?.body) ? parsed.body.length : 'n/a';
     throw new Error(
-      `Generator returned malformed article (stop_reason=${message.stop_reason}, keys=[${keys}], bodyLen=${bodyLen})`,
+      `Generator returned malformed article (stop_reason=${message.stop_reason}, keys=[${keys}], bodyType=${typeof parsed.body})`,
     );
   }
 
+  const str = (v: unknown) => (typeof v === 'string' ? v : '');
+
   return {
-    slug: slugify(parsed.title),
-    title: parsed.title,
-    seo_description: parsed.seo_description ?? parsed.excerpt ?? '',
-    excerpt: parsed.excerpt ?? parsed.seo_description ?? '',
+    slug: slugify(str(parsed.title)),
+    title: str(parsed.title),
+    seo_description: str(parsed.seo_description) || str(parsed.excerpt),
+    excerpt: str(parsed.excerpt) || str(parsed.seo_description),
     category: pillar.category,
     condition_slug: pillar.slug,
-    read_time: parsed.read_time ?? '8 min read',
-    body: parsed.body,
-    faqs: Array.isArray(parsed.faqs) ? parsed.faqs.slice(0, 6) : [],
-    tags: Array.isArray(parsed.tags) ? parsed.tags.slice(0, 8) : [],
+    read_time: str(parsed.read_time) || '8 min read',
+    body,
+    faqs: normalizeFaqs(parsed.faqs),
+    tags: Array.isArray(parsed.tags)
+      ? parsed.tags.filter((t): t is string => typeof t === 'string').slice(0, 8)
+      : [],
   };
+}
+
+/** Accept body as a string[] or a single markdown string and return clean blocks. */
+function normalizeBody(raw: unknown): string[] {
+  if (Array.isArray(raw)) {
+    return raw
+      .map((b) => {
+        if (typeof b === 'string') return b;
+        if (b && typeof b === 'object') {
+          const o = b as Record<string, unknown>;
+          return typeof o.text === 'string' ? o.text : typeof o.content === 'string' ? o.content : '';
+        }
+        return '';
+      })
+      .map((s) => s.trim())
+      .filter(Boolean);
+  }
+  if (typeof raw === 'string') {
+    return raw
+      .split(/\n{2,}/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+  }
+  return [];
+}
+
+function normalizeFaqs(raw: unknown): { q: string; a: string }[] {
+  if (!Array.isArray(raw)) return [];
+  return raw
+    .map((f) => {
+      const o = (f ?? {}) as Record<string, unknown>;
+      return { q: typeof o.q === 'string' ? o.q : '', a: typeof o.a === 'string' ? o.a : '' };
+    })
+    .filter((f) => f.q && f.a)
+    .slice(0, 6);
 }
