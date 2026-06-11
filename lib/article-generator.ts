@@ -92,7 +92,7 @@ Call the submit_article tool with the finished article. Provide exactly 4 FAQs.`
 
   const message = await anthropic.messages.create({
     model: 'claude-opus-4-6',
-    max_tokens: 8000,
+    max_tokens: 16000,
     tools: [
       {
         name: 'submit_article',
@@ -130,12 +130,19 @@ Call the submit_article tool with the finished article. Provide exactly 4 FAQs.`
 
   const toolUse = message.content.find((b) => b.type === 'tool_use');
   if (!toolUse || toolUse.type !== 'tool_use') {
-    throw new Error('Generator did not return a tool_use block');
+    const types = message.content.map((b) => b.type).join(',');
+    throw new Error(
+      `Generator did not return a tool_use block (stop_reason=${message.stop_reason}, blocks=[${types}])`,
+    );
   }
   const parsed = toolUse.input as Omit<GeneratedArticle, 'slug' | 'category' | 'condition_slug'>;
 
   if (!parsed.title || !Array.isArray(parsed.body) || parsed.body.length === 0) {
-    throw new Error('Generator returned malformed article');
+    const keys = Object.keys(parsed ?? {}).join(',');
+    const bodyLen = Array.isArray(parsed?.body) ? parsed.body.length : 'n/a';
+    throw new Error(
+      `Generator returned malformed article (stop_reason=${message.stop_reason}, keys=[${keys}], bodyLen=${bodyLen})`,
+    );
   }
 
   return {
