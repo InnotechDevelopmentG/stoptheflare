@@ -6,6 +6,27 @@ import { getBlogPosts } from '@/lib/data';
 export const maxDuration = 120; // article generation needs time
 export const dynamic = 'force-dynamic';
 
+const INDEXNOW_HOST = 'www.stoptheflare.com';
+const INDEXNOW_KEY = '93a229d1c0bb3359bb4915c9a880f4c6';
+
+/** Notify IndexNow (Bing/DuckDuckGo/Yandex) of a freshly published URL. Never throws. */
+async function pingIndexNow(slug: string): Promise<void> {
+  try {
+    await fetch('https://api.indexnow.org/indexnow', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json; charset=utf-8' },
+      body: JSON.stringify({
+        host: INDEXNOW_HOST,
+        key: INDEXNOW_KEY,
+        keyLocation: `https://${INDEXNOW_HOST}/${INDEXNOW_KEY}.txt`,
+        urlList: [`https://${INDEXNOW_HOST}/latest/${slug}`],
+      }),
+    });
+  } catch (e) {
+    console.error('[article-cron] IndexNow ping failed (non-fatal):', e);
+  }
+}
+
 export async function GET(req: NextRequest) {
   const cronSecret = process.env.CRON_SECRET;
   const isVercelCron = req.headers.get('x-vercel-cron') === '1';
@@ -68,6 +89,7 @@ export async function GET(req: NextRequest) {
     }
 
     console.log('[article-cron] Published:', data.slug);
+    await pingIndexNow(data.slug);
     return NextResponse.json({ success: true, slug: data.slug, id: data.id });
   } catch (err) {
     console.error('[article-cron] Error:', err);
