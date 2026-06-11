@@ -4,12 +4,23 @@ import { createClient } from '@supabase/supabase-js';
  * Server-only Supabase client for reading/writing auto-generated articles.
  * Prefers the service-role key (bypasses RLS); falls back to the anon key.
  */
+/** Reduce a Supabase URL to its origin (scheme + host), tolerating a pasted
+ *  "/rest/v1" path or trailing slash that would otherwise produce a malformed
+ *  "//rest/v1/rest/v1/..." path ("Invalid path specified in request URL"). */
+function normalizeSupabaseUrl(raw: string): string {
+  const trimmed = raw.trim();
+  try {
+    return new URL(trimmed).origin;
+  } catch {
+    return trimmed.replace(/\/(rest\/v1)?\/*$/, '');
+  }
+}
+
 export function getSupabaseAdminClient() {
-  // Trim whitespace and any trailing slash — a trailing "/" yields a malformed
-  // "//rest/v1/..." path and Supabase rejects it ("Invalid path specified in request URL").
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim().replace(/\/+$/, '');
+  const rawUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = (process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)?.trim();
-  if (!url || !key) throw new Error('Missing Supabase env vars');
+  if (!rawUrl || !key) throw new Error('Missing Supabase env vars');
+  const url = normalizeSupabaseUrl(rawUrl);
   return createClient(url, key, {
     auth: { persistSession: false },
     // Force Next.js fetch cache bypass so server components always get fresh data.
