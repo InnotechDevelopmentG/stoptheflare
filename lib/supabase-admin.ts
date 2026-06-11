@@ -5,8 +5,10 @@ import { createClient } from '@supabase/supabase-js';
  * Prefers the service-role key (bypasses RLS); falls back to the anon key.
  */
 export function getSupabaseAdminClient() {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  // Trim whitespace and any trailing slash — a trailing "/" yields a malformed
+  // "//rest/v1/..." path and Supabase rejects it ("Invalid path specified in request URL").
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim().replace(/\/+$/, '');
+  const key = (process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)?.trim();
   if (!url || !key) throw new Error('Missing Supabase env vars');
   return createClient(url, key, {
     auth: { persistSession: false },
