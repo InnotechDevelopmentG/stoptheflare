@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { generateArticle } from '@/lib/article-generator';
+import { generateArticle, pillarForDate } from '@/lib/article-generator';
 import { getSupabaseAdminClient } from '@/lib/supabase-admin';
 import { getBlogPosts } from '@/lib/data';
 
@@ -46,20 +46,26 @@ export async function GET(req: NextRequest) {
   try {
     const supabase = getSupabaseAdminClient();
 
-    // Build the "avoid" list from both the static blog and previously generated articles.
-    const staticTitles = getBlogPosts().map((p) => p.title);
+    // Build the "avoid" list from both the static blog and previously generated
+    // articles — scoped to today's pillar. Cross-pillar overlap isn't a real
+    // duplication risk, and sending every title wastes input tokens.
+    const pillar = pillarForDate();
+    const staticTitles = getBlogPosts()
+      .filter((p) => p.conditionSlug === pillar.slug)
+      .map((p) => p.title);
     const { data: existing } = await supabase
       .from('flare_articles')
       .select('title')
+      .eq('condition_slug', pillar.slug)
       .order('published_at', { ascending: false })
-      .limit(200);
+      .limit(60);
     const existingTitles = [
       ...staticTitles,
       ...((existing ?? []) as { title: string }[]).map((r) => r.title),
     ];
 
     console.log('[article-cron] Generating article...');
-    const article = await generateArticle({ existingTitles });
+    const article = await generateArticle({ existingTitles, pillar });
 
     const { data, error } = await supabase
       .from('flare_articles')

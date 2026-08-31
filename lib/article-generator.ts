@@ -24,6 +24,8 @@ const PILLARS = [
   { slug: 'histamine-mcas', category: 'Histamine & MCAS', name: 'histamine intolerance & MCAS' },
 ] as const;
 
+export type Pillar = (typeof PILLARS)[number];
+
 /** Internal paths the model is allowed to link to (keeps every link valid). */
 const INTERNAL_LINKS = [
   '/hashimotos',
@@ -63,10 +65,13 @@ function slugify(title: string): string {
  */
 export async function generateArticle(opts: {
   existingTitles?: string[];
+  /** Pass the pillar the caller already resolved, so title-filtering and
+   *  generation can't disagree if the date rolls over between the two calls. */
+  pillar?: Pillar;
 } = {}): Promise<GeneratedArticle> {
   const now = new Date();
-  const pillar = pillarForDate(now);
-  const avoid = (opts.existingTitles ?? []).slice(0, 120);
+  const pillar = opts.pillar ?? pillarForDate(now);
+  const avoid = (opts.existingTitles ?? []).slice(0, 60);
 
   const prompt = `You are a senior health writer for StopTheFlare.com \u2014 an independent, research-backed resource that helps people manage autoimmune and inflammatory conditions. You receive NO brand sponsorships; your guidance is honest and evidence-informed.
 
@@ -91,7 +96,7 @@ Call the submit_article tool with the finished article. Provide exactly 4 FAQs.`
   const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
   const message = await anthropic.messages.create({
-    model: 'claude-opus-4-6',
+    model: 'claude-haiku-4-5',
     max_tokens: 16000,
     tools: [
       {
